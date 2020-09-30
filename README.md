@@ -24,6 +24,12 @@ There is no installation required for these code samples.
 
 Some users may prefer to use GitHub to browse the code samples; others may wish to clone the repository to their local machine.
 
+If you wish to use them in your site's source code, you will need to follow the standard/documented steps (depending on the type of customization). For example:
+
+* Creating a new module in SuiteCommerce Advanced: [https://netsuite.custhelp.com/app/answers/detail/a_id/44323](https://netsuite.custhelp.com/app/answers/detail/a_id/44323)
+* Creating a new extension: [https://netsuite.custhelp.com/app/answers/detail/a_id/71057](https://netsuite.custhelp.com/app/answers/detail/a_id/71057)
+* Creating a CCT module: [https://netsuite.custhelp.com/app/answers/detail/a_id/65904](https://netsuite.custhelp.com/app/answers/detail/a_id/65904)
+
 ## Documentation
 
 No official documentation for NetSuite products are hosted in this repository --- that is available in the Help Center via your NetSuite account, or [SuiteAnswers](https://netsuite.custhelp.com/app/home).
