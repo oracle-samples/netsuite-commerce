@@ -40,7 +40,7 @@ Community contributions are not currently being accepted.
 
 If you have ideas, comments, or issues to discuss, create an issue in this repository.
 
-See [CONTRIBUTING]({{site.baseurl}}/CONTRIBUTING.md) for more details.
+See [CONTRIBUTING](CONTRIBUTING.md) for more details.
 
 ## Issues
 
@@ -48,7 +48,7 @@ This repository is to help developers get started and work on customizations for
 
 ## Third-Party Libraries
 
-This repository references the third-party libraries that are used within the SuiteCommerce and SuiteCommerce Advanced bundles. Links to their licenses can be found in [THIRD_PARTY_LICENSES]({{site.baseurl}}/THIRD_PARTY_LICENSES.txt).
+This repository references the third-party libraries that are used within the SuiteCommerce and SuiteCommerce Advanced bundles. Links to their licenses can be found in [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES.txt).
 
 ## License
 
@@ -56,4 +56,4 @@ Copyright (c) 2020, Oracle and/or its affiliates.
 
 Licensed under the Universal Permissive License v 1.0 as shown at [https://oss.oracle.com/licenses/upl](https://oss.oracle.com/licenses/upl).
 
-See [LICENSE]({{site.baseurl}}/LICENSE.txt) for more details.
+See [LICENSE](LICENSE.txt) for more details.
