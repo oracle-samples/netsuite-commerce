@@ -34,6 +34,14 @@ Primary documentation for these code samples come in the form of comments in the
 
 No support is provided for these code samples, they are provided as-is.
 
+## Issues
+
+This repository is to help developers get started and work on customizations for SuiteCommerce and SuiteCommerce Advanced. Do **NOT** raise issues to ask general questions about SuiteCommerce, or to report bugs with the bundles or NetSuite. Issues must relate only to the content within this repository only --- unrelated issues will be closed and/or removed.
+
+## Security Issues
+
+If you have security concerns about the code in this repository, do **NOT** raise a GitHub issue. Instead, please follow the instructions in [SECURITY.md](SECURITY.md).
+
 ## Contributions
 
 Community contributions are not currently being accepted.
@@ -41,10 +49,6 @@ Community contributions are not currently being accepted.
 If you have ideas, comments, or issues to discuss, create an issue in this repository.
 
 See [CONTRIBUTING](CONTRIBUTING.md) for more details.
-
-## Issues
-
-This repository is to help developers get started and work on customizations for SuiteCommerce and SuiteCommerce Advanced. Do **not** raise issues to ask general questions about SuiteCommerce, or to report bugs with the bundles or NetSuite. Issues must relate only to the content within this repository only --- unrelated issues will be closed and/or removed.
 
 ## Third-Party Libraries
 
