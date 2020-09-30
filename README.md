@@ -1,4 +1,4 @@
-This is a repository of code samples for NetSuite SuiteCommerce and SuiteCommerce Advanced, as well as a developer site providing additional information on how to develop on these products. The snippets show how the code works; they are not official features or modules for SuiteCommerce.
+This is a repository of code samples for NetSuite SuiteCommerce and SuiteCommerce Advanced. The snippets show how the code works; they are not official features or modules for SuiteCommerce.
 
 ## Dependencies
 
@@ -14,26 +14,21 @@ Furthermore, it is recommended that you have:
 
 ## Organization of the Repository
 
-The repository contains code for operating a page on GitHub Pages and sample code.
+This repository contains code samples (in the directory called **samples**) split up by version. The version indicates roughly when the code was written, but given the flexibility of the code, some of it will be backwards-compatible, and some will be forwards-compatible.
 
-If you clone the repository to your machine, you will be able to run the site locally using Jekyll. However, we would recommend using the up-to-date live version on [developers.suitecommerce.com](https://developers.suitecommerce.com).
-
-This repository also contains code samples (in the directory called **samples**) split up by version. The version indicates roughly when the code was written, but given the flexibility of the code, some of it will be backwards-compatible, and some will be forwards-compatible.
-
-The code samples are there to show you things fit together; it is not advisable to simply copy and paste entire modules into your live site without first examining and experimenting with the code.
+The code samples are there to show you things fit together and to give you ideas about customizations that you can make to SuiteCommerce and SuiteCommerce Advanced web stores. They are not 'official' NetSuite features --- you should consider them learning materials to improve your understanding of the products.
 
 ## Installation
 
-You can clone the repository if you wish. You will, however, be downloading a lot of code which may not be relevant to your site. It is recommended, instead, that you browse/search for either the version of your site for interesting nuggets, or, instead, the browse around for a potential feature or search for a keyword you might be interested in.
+There is no installation required for these code samples.
+
+Some users may prefer to use GitHub to browse the code samples; others may wish to clone the repository to their local machine.
 
 ## Documentation
 
-No official documentation for NetSuite products are hosted in this repository. The content on this site comes in two forms:
+No official documentation for NetSuite products are hosted in this repository --- that is available in the Help Center via your NetSuite account, or [SuiteAnswers](https://netsuite.custhelp.com/app/home).
 
-1. Code samples that demonstrate best practices, teach how the architecture works, provide ideas for custom functionality, tutorialize basic concepts, etc
-2. Written content to supplement this code
-
-Accordingly, you are encouraged to refer to official NetSuite documentation, which is available in the Help Center via your NetSuite account, or SuiteAnswers ([https://netsuite.custhelp.com/app/home](https://netsuite.custhelp.com/app/home)).
+Primary documentation for these code samples come in the form of comments in the source files. However, you should also search the [developer portal](https://developers.suitecommerce.com) as you will likely find an accompanying article that explains the code (and the process for writing it) in more detail.
 
 ## Support
 
@@ -41,14 +36,15 @@ No support is provided for these code samples, they are provided as-is.
 
 ## Contributions
 
-This repository is to help developers get started and work on customizations for SuiteCommerce and SuiteCommerce Advanced. Do **not** raise issues to ask general questions about SuiteCommerce, or to report bugs with the bundles or NetSuite. Issues must relate only to the content within this repository.
-
-Pull requests are currently not being accepted for the NetSuite SuiteCommerce Developers project.
+Community contributions are not currently being accepted.
 
 If you have ideas, comments, or issues to discuss, create an issue in this repository.
 
 See [CONTRIBUTING]({{site.baseurl}}/CONTRIBUTING.md) for more details.
 
+## Issues
+
+This repository is to help developers get started and work on customizations for SuiteCommerce and SuiteCommerce Advanced. Do **not** raise issues to ask general questions about SuiteCommerce, or to report bugs with the bundles or NetSuite. Issues must relate only to the content within this repository only --- unrelated issues will be closed and/or removed.
 
 ## Third-Party Libraries
 
