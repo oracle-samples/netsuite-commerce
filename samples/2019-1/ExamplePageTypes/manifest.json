@@ -1,0 +1,82 @@
+{
+    "name": "ExamplePageTypes",
+    "fantasyName": "Example Page Types",
+    "vendor": "Example",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "description": "Example Page Types",
+    "page": {
+        "types": [
+            {
+                "name": "pagetype_aboutus_list",
+                "displayName": "About Us List"
+            },
+            {
+                "name": "pagetype_aboutus_details",
+                "displayName": "About Us Details"
+            }
+        ]
+    },
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": [
+                "img/rightarrow.jpg"
+            ]
+        },
+        "fonts": {
+            "files": []
+        }
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/AboutUs/Sass/_example_examplepagetypes_aboutus.scss"
+        },
+        "files": [
+            "Modules/AboutUs/Sass/_example_examplepagetypes_aboutus.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/AboutUs/Templates/example_page_types_about_us_details.tpl",
+                    "Modules/AboutUs/Templates/example_page_types_about_us_list.tpl",
+                    "Modules/AboutUs/Templates/example_pagetypes_product_details_full_right_image.tpl",
+                    "Modules/AboutUs/Templates/example_page_types_about_us_icons.tpl",
+                    "Modules/AboutUs/Templates/example_page_types_about_us_details_crown.tpl",
+                    "Modules/ExampleLandingPage/Templates/example_page_types_example_landing_page.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/AboutUs/JavaScript/Example.ExamplePageTypes.AboutUs.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/AboutUs/JavaScript/Example.ExamplePageTypes.AboutUs.Collection.js",
+                    "Modules/AboutUs/JavaScript/Example.ExamplePageTypes.AboutUs.Details.View.js",
+                    "Modules/AboutUs/JavaScript/Example.ExamplePageTypes.AboutUs.js",
+                    "Modules/AboutUs/JavaScript/Example.ExamplePageTypes.AboutUs.List.View.js",
+                    "Modules/AboutUs/JavaScript/Example.ExamplePageTypes.AboutUs.Model.js",
+                    "Modules/AboutUs/JavaScript/Example.ExamplePageTypes.AboutUs.Icons.View.js",
+                    "Modules/ExampleLandingPage/JavaScript/Example.ExamplePageTypes.ExampleLandingPage.js",
+                    "Modules/ExampleLandingPage/JavaScript/Example.ExamplePageTypes.ExampleLandingPage.View.js",
+                    "Modules/AboutUs/JavaScript/Example.ExamplePageTypes.AboutUs.List.New.View.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/AboutUs/SuiteScript/Example.ExamplePageTypes.AboutUs.Model.js",
+        "files": [
+            "Modules/AboutUs/SuiteScript/AboutUs.ServiceController.js",
+            "Modules/AboutUs/SuiteScript/Example.ExamplePageTypes.AboutUs.Model.js"
+        ]
+    },
+    "local_folder": "Workspace/ExamplePageTypes"
+}

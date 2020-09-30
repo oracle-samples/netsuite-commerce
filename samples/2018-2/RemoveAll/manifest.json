@@ -1,0 +1,56 @@
+{
+    "name": "RemoveAll",
+    "fantasyName": "Remove All Items",
+    "vendor": "Example",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "version": "1.0.0",
+    "description": "Implements a button to remove all items from the cart",
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        }
+    },
+    "configuration": {
+        "files": []
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/RemoveAll/Templates/example_removeall_removeall.tpl"
+                ]
+            }
+        }
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/RemoveAll/Sass/_removeall-removeall.scss"
+        },
+        "files": [
+            "Modules/RemoveAll/Sass/_removeall-removeall.scss"
+        ]
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/RemoveAll/JavaScript/Example.RemoveAll.RemoveAll.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/RemoveAll/JavaScript/Example.RemoveAll.RemoveAll.js",
+                    "Modules/RemoveAll/JavaScript/RemoveAll.View.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/RemoveAll/SuiteScript/Example.RemoveAll.RemoveAll.js",
+        "files": [
+            "Modules/RemoveAll/SuiteScript/Example.RemoveAll.RemoveAll.js"
+        ]
+    }
+}

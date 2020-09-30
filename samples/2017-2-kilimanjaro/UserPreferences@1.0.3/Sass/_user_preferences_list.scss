@@ -1,0 +1,41 @@
+.user-preferences-list-header {
+    @extend .list-header;
+    position: relative;
+    margin-bottom: $sc-padding-lv3;
+    display: inline-block;
+    width: 100%;
+}
+
+.user-preferences-list-title {
+    @extend .list-header-title;
+    float: none;
+}
+
+.user-preferences-list-table-header-actions {
+    width: 25%;
+}
+
+.user-preferences-list-button-new {
+    @extend .list-header-button;
+    margin-top: $sc-padding-lv4;
+    position: absolute;
+    top: 25;
+    z-index: 1;
+    right: 0;
+
+    @media (min-width: $screen-sm-min) {
+        margin-top: 0;
+        z-index: 0;
+        top: 0;
+        margin-bottom: $sc-padding-lv3;
+    }
+}
+
+.user-preferences-list-table {
+    @extend .recordviews-table;
+}
+
+.user-preferences-list-table-header {
+    @extend .recordviews-row-header;
+    border-top: 1px solid $sc-neutral-shade-300;
+}

@@ -1,0 +1,83 @@
+{
+    "name": "TermsAndConditions",
+    "fantasyName": "Terms and Conditions",
+    "vendor": "Example",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "description": "Adds a terms and conditions checkbox to the registration form",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        }
+    },
+    "configuration": {
+        "files": []
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/TermsAndConditions/Templates/example_termsandconditions_termsandconditions_loginregister.tpl",
+                    "Modules/TermsAndConditions/Templates/example_termsandconditions_termsandconditions_myaccount.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/TermsAndConditions/Templates/example_termsandconditions_termsandconditions_loginregister.tpl",
+                    "Modules/TermsAndConditions/Templates/example_termsandconditions_termsandconditions_myaccount.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/TermsAndConditions/Templates/example_termsandconditions_termsandconditions_loginregister.tpl",
+                    "Modules/TermsAndConditions/Templates/example_termsandconditions_termsandconditions_myaccount.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.js",
+            "myaccount": "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.MyAccount.js",
+            "checkout": "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.Checkout.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.Checkout.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.LoginRegister.View.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.MyAccount.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.MyAccount.Router.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.MyAccount.View.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.Checkout.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.LoginRegister.View.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.MyAccount.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.MyAccount.Router.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.MyAccount.View.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.Checkout.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.LoginRegister.View.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.MyAccount.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.MyAccount.Router.js",
+                    "Modules/TermsAndConditions/JavaScript/Example.TermsAndConditions.TermsAndConditions.MyAccount.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace/TermsAndConditions"
+}

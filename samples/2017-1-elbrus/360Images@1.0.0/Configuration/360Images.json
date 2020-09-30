@@ -1,0 +1,36 @@
+{
+  "type": "object",
+
+  "properties": {
+
+    "imagesThreeSixty": {
+      "group": "catalog",
+      "type": "array",
+      "title": "Product 360 Image",
+      "description": "Configure the 360 images for the PDP",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "title": "Image file name",
+            "description": "",
+            "mandatory": true
+          },
+          "frames": {
+            "type": "integer",
+            "title": "Total frames",
+            "description": "",
+            "mandatory": true
+          },
+          "footage": {
+            "type": "integer",
+            "title": "Number of columns",
+            "description": "",
+            "mandatory": true
+          }
+        }
+      }
+    }
+  }
+}

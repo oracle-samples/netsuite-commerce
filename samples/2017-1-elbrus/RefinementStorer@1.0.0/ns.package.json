@@ -1,0 +1,10 @@
+{
+  "gulp": {
+    "javascript": [
+      "JavaScript/*"
+    ]
+  , "configuration": [
+      "Configuration/*"
+    ]
+  }
+}

@@ -1,0 +1,275 @@
+/*.sc-cct-imageviewer {
+  @extend .container;
+}*/
+
+.sc-cct-imageviewer-banner-top-message {
+  @extend .message-info;
+  @extend .message-large;
+}
+
+.sc-cct-imageviewer-slider-container {
+  margin-top:$sc-margin-lv4;
+  margin-bottom:$sc-margin-lv4;
+  @extend .row;
+}
+.sc-cct-imageviewer-image-slider {
+  @extend .col-sm-12;}
+
+// start bx-slider specifics
+$sc-image-slider-height: 400px;
+$sc-image-slider-max-width: 1140px;
+$sc-image-slider-max-width-mobile: 767px;
+
+.sc-cct-imageviewer-image-slider .bx-wrapper {
+  margin-bottom: $sc-margin-lv8;
+}
+.sc-cct-imageviewer-image-slider .bx-pager-item {
+  vertical-align: middle;
+}
+.sc-cct-imageviewer-image-slider .bx-controls,
+.sc-cct-imageviewer-image-slider .bx-controls .bx-pager {
+  @media (min-width: $screen-sm-min) {
+    margin-top: $sc-margin-lv2;
+  }
+}
+
+.sc-cct-imageviewer-image-slider .bx-wrapper,
+.sc-cct-imageviewer-image-slider .bx-viewport {
+  height: $sc-image-slider-height !important;
+}
+.sc-cct-imageviewer-image-slider .bx-viewport ul li {
+  overflow:hidden;
+}
+
+.sc-cct-imageviewer-image-slider .bx-wrapper .sc-cct-imageviewer-slide-image-container {
+  margin: auto 0;
+  margin-top: 100px;
+  float:none;
+
+  @media (min-width: $screen-sm-min) {
+    max-width: $sc-image-slider-max-width !important;
+    float:right;
+    margin: 0 $sc-margin-lv1 * 12 0 0;
+    width:350px;
+    padding: $sc-margin-lv6;
+  }
+}
+
+.sc-cct-imageviewer-gallery-prev-icon, .sc-cct-imageviewer-gallery-next-icon {
+  position: absolute;
+  top: 40%;
+  width: $sc-target-size-mobile;
+  height: $sc-target-size-mobile;
+  font-size: 50px;
+  color: $sc-color-theme-400;
+}
+
+.sc-cct-imageviewer-gallery-prev-icon {
+  left: $sc-margin-lv6;
+  @extend .icon-angle-left;
+
+}
+
+.sc-cct-imageviewer-gallery-next-icon {
+  right:10px;
+  @extend .icon-angle-right;
+}
+
+.sc-cct-imageviewer-image-slider .bx-pager {
+
+  a {
+    color: $sc-color-theme-400 !important;
+    background-color: $sc-color-theme-400 !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100% !important;
+    font-size:0;
+    text-indent:-9999px;
+  }
+  a.active{
+    background-color: $sc-color-secondary;
+  }
+}
+
+@media (min-width: $screen-md-min) {
+
+  .sc-cct-imageviewer-image-slider .bx-wrapper {
+    margin-bottom: 0;
+  }
+}
+
+.sc-cct-imageviewer-image-slider .bx-pager {
+  @media (min-width: $screen-md-min) {
+    width: 940px;
+    position: absolute !important;
+    bottom: $sc-margin-lv4;
+    text-align: center;
+  }
+  @media (min-width: $screen-lg-min) {
+    width: 1140px;
+  }
+}
+// end bx-slider specifics
+
+.sc-cct-imageviewer-banner-main {
+  margin-bottom:$sc-margin-lv4;
+  @extend .row;
+}
+
+.sc-cct-imageviewer-banner-main-cell-nth0{
+  @extend .col-xs-12;
+  @extend .col-sm-4;
+  text-align:center;
+  margin-bottom:$sc-margin-lv4;
+
+  img {
+    margin:auto;
+    float:left;
+    @media (min-width: $screen-sm-min) {
+      max-width:100%;
+      width: 100%;
+      float: none;
+    }
+  }
+}
+
+.sc-cct-imageviewer-banner-main-cell-nth1,
+.sc-cct-imageviewer-banner-main-cell-nth2 {
+  @extend .col-xs-6;
+  @extend .col-sm-4;
+  .sc-cct-imageviewer-banner-main-cell-text {
+    display: none;
+  }
+  img {
+    margin: 0 auto;
+    float: none;
+  }
+}
+.sc-cct-imageviewer-banner-main-cell-bg{
+  background:$sc-color-theme-background;
+  width: 100%;
+  overflow: hidden;
+}
+
+.sc-cct-imageviewer-banner-main-cell-text{
+  display:inline-block;
+  color:$sc-color-theme-900;
+  font-size:$sc-font-size-xl;
+  text-transform:uppercase;
+  font-weight:$sc-font-weight-light;
+  line-height: 82px;
+  float: left;
+  @media (min-width: $screen-sm-min) {
+    display:none;
+  }
+}
+
+.sc-cct-imageviewer-merchandising-zone {
+
+  .merchandising-zone {
+    border: 0;
+  }
+  .merchandising-zone-title {
+      display: none;
+  }
+  .item-cell-main-image {
+    margin:0 auto;
+    width: $img-medium;
+  }
+}
+
+.sc-cct-imageviewer-slide-main-container{
+  background:$sc-color-theme-background;
+  overflow:hidden;
+  height:400px;
+  text-align:center;
+  @media (min-width: $screen-sm-min) {
+    height:100%;
+  }
+}
+
+.sc-cct-imageviewer-slide-caption-top {
+	top:0px;
+    margin-top:$sc-margin-lv3;
+}
+
+.sc-cct-imageviewer-slide-caption-center {
+	top:50%;
+	transform: translateY(-50%);
+}
+
+.sc-cct-imageviewer-slide-caption-bottom {
+	bottom:0px;
+    margin-bottom:$sc-margin-lv3;
+}
+
+.sc-cct-imageviewer-slide-caption{
+  position:absolute;
+  width:100%;
+  text-align:center;
+  /*padding:$sc-margin-lv2;
+  height:80%;*/
+  @media (min-width: $screen-sm-min) {
+    /*padding:$sc-padding-lv8 $sc-padding-lv1 * 12;
+	width:50%;
+    padding-right:0px;
+    text-align:left;
+    height: auto;
+	position:absolute;*/
+  }
+
+  h2.sc-cct-imageviewer-slide-caption-title{
+	  text-shadow: 1px 1px 1px #000,
+             -1px -1px 1px #000,
+             -1px 1px 1px #000,
+              1px -1px 1px #000;
+      font-size:$sc-font-size-m * 2.66;
+      line-height: $sc-font-size-m * 2.66;
+      color:$sc-color-primary;
+      @media (min-width: $screen-sm-min){
+          /*margin-bottom:$sc-margin-lv4;*/
+      }
+  }
+  p{
+    display:none;
+    @media (min-width: $screen-xs-min){
+      display:block;
+      margin-bottom:$sc-margin-lv4;
+      color:$sc-color-theme-900;
+      font-size:$sc-font-size-xl;
+      text-transform:uppercase;
+      font-weight:$sc-font-weight-light;
+    }
+    @media (min-width: $screen-sm-min){
+      font-size:$sc-font-size-xl;
+    }
+  }
+
+  .sc-cct-imageviewer-slide-caption-button-container{
+    padding-left:$sc-padding-lv4;
+    padding-right:$sc-padding-lv4;
+    position:absolute;
+    margin-left: -$sc-padding-lv1 *2;
+    bottom:-60px;
+    width: 100%;
+    @media (min-width: $screen-sm-min){
+      padding:0;
+      margin-left:0;
+      margin-right:0;
+      position:relative;
+      bottom:0px;
+    }
+  }
+
+  .sc-cct-imageviewer-slide-caption-button{
+    @extend .button-primary;
+    @extend .button-large;
+    @media (min-width: $screen-xs-min){
+      width: auto;
+      position:relative;
+    }
+  }
+}
+
+.sc-cct-imageviewer-merchandizing-zone{}
+.sc-cct-imageviewer-image-slider-list{}

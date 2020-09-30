@@ -1,0 +1,42 @@
+// Copyright (c) 2019, Oracle and/or its affiliates. All rights reserved.
+// Licensed under the Universal Permissive License v 1.0 as shown at http://oss.oracle.com/licenses/upl.
+
+.artist-details-hide-label {
+    @media (min-width: $screen-md-min) {
+        display: none;
+    }
+}
+.artist-details-results-table-row {
+    @extend .recordviews-row;
+}
+.artist-details-results-table-row:hover {
+    @extend .recordviews-row:hover;
+}
+.artist-details-results-table-row-id-label {
+    @extend .artist-details-hide-label;
+}
+.artist-details-results-table-row-name-label {
+    @extend .artist-details-hide-label;
+}
+.artist-details-results-table-row-genre-label {
+    @extend .artist-details-hide-label;
+}
+.artist-details-results-table-row-action-edit-button {
+    @extend .button-small;
+    @extend .button-tertiary;
+    @media (max-width: $screen-md-min) {
+        margin-bottom: $sc-small-margin;
+    }
+}
+.artist-details-results-table-row-action-delete-button {
+    @extend .button-small;
+    @extend .button-primary;
+    background-color: $sc-color-error;
+    border-color: darken($sc-color-error,20);
+    @media (max-width: $screen-md-min) {
+        margin-bottom: $sc-small-margin;
+    }
+}
+.artist-details-results-table-row-action-delete-button:hover {
+    background-color: saturate(lighten($sc-color-error, 4), 4);
+}

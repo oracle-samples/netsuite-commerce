@@ -1,0 +1,19 @@
+{
+  "type": "object"
+
+, "subtab": {
+    "id": "refinementStorer"
+  , "group": "catalog"
+  , "title": "Refinement Storer"
+  }
+
+, "properties": {
+    "refinementStorer.enabled": {
+      "group": "catalog"
+    , "type": "boolean"
+    , "subtab": "refinementStorer"
+    , "title": "Enabled"
+    , "default": true
+    }
+  }
+}

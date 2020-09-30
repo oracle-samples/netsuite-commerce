@@ -1,0 +1,25 @@
+.user-preferences-edit {
+    @extend .box-column-bordered;
+}
+
+.user-preferences-edit-header {
+    margin-bottom: $sc-margin-lv3;
+}
+
+.user-preferences-edit-control-group {
+    @extend .control-group;
+    margin: $sc-margin-lv4 0 0 0;
+}
+
+.user-preferences-edit-input {
+    @extend .input-large;
+}
+
+.user-preferences-edit-label-required {
+    @extend .required;
+}
+
+.user-preferences-edit-submit {
+    @extend .button-primary;
+    @extend .button-medium;
+}

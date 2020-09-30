@@ -1,0 +1,16 @@
+{
+  "gulp": {
+    "configuration": [
+      "Configuration/*"
+    ]
+  , "javascript": [
+      "JavaScript/*"
+    ]
+  , "templates": [
+      "Templates/*"
+    ]
+  }
+, "overrides": {
+    "suitecommerce/ProductDetails@1.0.0/Templates/product_details_image_gallery.tpl": "Templates/product_details_image_gallery.tpl"
+  }
+}

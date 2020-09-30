@@ -1,0 +1,41 @@
+.user-preferences-details-hide-label {
+    @media (min-width: $screen-md-min) {
+        display: none;
+    }
+}
+
+.user-preferences-details-table-row {
+    @extend .recordviews-row;
+}
+
+.user-preferences-details-table-row:hover {
+    @extend .recordviews-row:hover;
+}
+
+.user-preferences-details-label {
+    @media (min-width: $screen-md-min) {
+        display: none;
+    }
+}
+
+.user-preferences-details-edit {
+    @extend .button-small;
+    @extend .button-tertiary;
+    @media (max-width: $screen-md-min) {
+        margin-bottom: $sc-margin-lv1;
+    }
+}
+
+.user-preferences-details-delete {
+    @extend .button-small;
+    @extend .button-primary;
+    background-color: $sc-color-error;
+    border-color: darken($sc-color-error,20);
+    @media (max-width: $screen-md-min) {
+        margin-bottom: $sc-padding-lv1;
+    }
+}
+
+.user-preferences-details-delete:hover {
+    background-color: saturate(lighten($sc-color-error, 4), 4);
+}

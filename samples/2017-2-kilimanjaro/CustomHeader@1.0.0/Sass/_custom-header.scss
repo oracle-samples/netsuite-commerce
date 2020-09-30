@@ -1,0 +1,70 @@
+.header-main-wrapper, .header-subheader {
+    background-color: saturate(darken($sc-color-secondary, 10), 20);
+}
+
+.header-main-nav {
+    background-color: transparent;
+}
+
+.header-subheader {
+    display: block;
+}
+
+.header-subheader a,
+.header-sidebar-toggle-icon,
+.header-menu-searchmobile-icon,
+.header-profile-login-icon,
+.storelocator-accesspoints-headerlink-link-icon {
+    color: $sc-color-primary;
+
+    &:hover {
+        color: saturate(lighten($sc-color-primary, 10), 20);
+        text-shadow: saturate(lighten($sc-color-secondary, 10), 20) 0 0 2px;
+    }
+}
+
+.header-subheader-container {
+    padding: 0;
+}
+
+.header-right-menu {
+    margin: $sc-margin-lv1 0 0 $sc-margin-lv6;
+}
+
+.header-subheader-options {
+    @media(min-width: $screen-sm-min) {
+        padding: $sc-padding-lv4 0;
+    }
+}
+
+.header-main-nav {
+    min-height: 0;
+}
+
+.header-menu-cart {
+    margin: 0;
+}
+
+.header-sidebar-toggle,
+.header-menu-searchmobile-link {
+    background: none;
+    margin-left: $sc-margin-lv1;
+}
+
+.header-menu-searchmobile-link {
+    &:hover, &.active {
+        background: none;
+    }
+}
+
+.requestquote-accesspoints-headerlink-link,
+.quickorder-accesspoints-headerlink-link,
+.storelocator-accesspoints-headerlink-link-text {
+    @media(max-width: $screen-sm-max) {
+        display: none;
+    }
+}
+
+.storelocator-accesspoints-headerlink-link {
+    float: none;
+}

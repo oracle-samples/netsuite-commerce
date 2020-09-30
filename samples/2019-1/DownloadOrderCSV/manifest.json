@@ -1,0 +1,95 @@
+{
+    "name": "DownloadOrderCSV",
+    "fantasyName": "Download Order CSV",
+    "vendor": "Example",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=19.2.0",
+        "SCS": ">=19.2.0"
+    },
+    "version": "1.0.2",
+    "description": "Downloads order history as a CSV",
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/DownloadOrderCSV.Service.ss"
+            ]
+        }
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/DownloadOrderCSV/Templates/example_downloadordercsv_downloadordercsv.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/DownloadOrderCSV/Templates/example_downloadordercsv_downloadordercsv.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/DownloadOrderCSV/Templates/example_downloadordercsv_downloadordercsv.tpl"
+                ]
+            }
+        }
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/DownloadOrderCSV/Sass/_example-downloadordercsv.scss",
+            "myaccount": "Modules/DownloadOrderCSV/Sass/_example-downloadordercsv.scss",
+            "checkout": "Modules/DownloadOrderCSV/Sass/_example-downloadordercsv.scss"
+        },
+        "files": [
+            "Modules/DownloadOrderCSV/Sass/_example-downloadordercsv.scss"
+        ]
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.noop.js",
+            "myaccount": "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.js",
+            "checkout": "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.noop.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.js",
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.View.js",
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.Helper.js",
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.noop.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.js",
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.View.js",
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.Helper.js",
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.noop.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.js",
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.View.js",
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.Helper.js",
+                    "Modules/DownloadOrderCSV/JavaScript/Example.DownloadOrderCSV.DownloadOrderCSV.noop.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/DownloadOrderCSV/SuiteScript/Example.DownloadOrderCSV.DownloadOrderCSV.js",
+        "files": [
+            "Modules/DownloadOrderCSV/SuiteScript/Example.DownloadOrderCSV.DownloadOrderCSV.js",
+            "Modules/DownloadOrderCSV/SuiteScript/DownloadOrderCSV.ServiceController.js"
+        ]
+    }
+}

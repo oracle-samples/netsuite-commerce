@@ -1,0 +1,87 @@
+{
+    "name": "Extension",
+    "fantasyName": "Test",
+    "vendor": "Vendor",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=20.1.0",
+        "SCS": ">=20.1.0"
+    },
+    "description": "My cool extension does magic!",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/Module.Service.ss"
+            ]
+        }
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Module/Templates/vendor_extension_module_test_template.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/Module/Templates/vendor_extension_module_test_template.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/Module/Templates/vendor_extension_module_test_template.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/Module/JavaScript/Vendor.Extension.Module.js",
+            "myaccount": "Modules/Module/JavaScript/Vendor.Extension.Module.js",
+            "checkout": "Modules/Module/JavaScript/Vendor.Extension.Module.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Module/JavaScript/Vendor.Extension.Module.js",
+                    "Modules/Module/JavaScript/Vendor.Extension.Module.TestView.js",
+                    "Modules/Module/JavaScript/Vendor.Extension.Module.Model.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/Module/JavaScript/Vendor.Extension.Module.js",
+                    "Modules/Module/JavaScript/Vendor.Extension.Module.TestView.js",
+                    "Modules/Module/JavaScript/Vendor.Extension.Module.Model.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/Module/JavaScript/Vendor.Extension.Module.js",
+                    "Modules/Module/JavaScript/Vendor.Extension.Module.TestView.js",
+                    "Modules/Module/JavaScript/Vendor.Extension.Module.Model.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/Module/SuiteScript/Module.ServiceController.js",
+        "files": [
+            "Modules/Module/SuiteScript/Module.ServiceController.js",
+            "Modules/Module/SuiteScript/Vendor.Extension.Module.Model.js"
+        ]
+    },
+    "local_folder": "Workspace\\Extension",
+    "suitescript2": {
+        "files": []
+    }
+}

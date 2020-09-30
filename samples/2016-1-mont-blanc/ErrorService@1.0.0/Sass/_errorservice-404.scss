@@ -1,0 +1,13 @@
+.error-management-page-not-found-content {
+    @extend .container;
+    padding: $sc-base-padding;
+
+    li {
+        list-style: disc;
+        margin: $sc-base-padding 0 0 $sc-base-padding * 4;
+    }
+
+    p, ul, h1 {
+        padding-top: $sc-base-padding;
+    }
+}

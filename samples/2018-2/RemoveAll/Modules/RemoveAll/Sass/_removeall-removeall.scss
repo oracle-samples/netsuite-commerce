@@ -1,0 +1,25 @@
+.removeall-container {
+    margin-bottom: $sc-margin-lv6;
+}
+
+.removeall-container-link {
+    @extend .button-tertiary;
+    @extend .button-medium;
+    width: 100%;
+    margin-top: $sc-margin-lv3;
+}
+
+/* If you don't have these in your theme */
+.global-views-confirmation-footer {
+    margin-top: $sc-margin-lv3;
+}
+
+.global-views-confirmation-confirm-button {
+    @extend .button-secondary;
+    @extend .button-medium;
+}
+
+.global-views-confirmation-cancel-button {
+    @extend .button-tertiary;
+    @extend .button-medium;
+}

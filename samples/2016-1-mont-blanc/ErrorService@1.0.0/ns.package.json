@@ -1,0 +1,25 @@
+{
+    "gulp": {
+        "javascript": [
+            "JavaScript/*.js"
+        ],
+        "images": [
+            "Images/*"
+        ],
+        "sass": [
+            "Sass/*.scss"
+        ],
+        "templates": [
+            "Templates/*"
+        ],
+        "ssp-libraries": [
+            "SuiteScript/*.js"
+        ],
+        "services": [
+            "SuiteScript/*.Service.ss"
+        ]
+    },
+    "overrides": {
+        "suitecommerce/ErrorManagement@2.1.0/Templates/error_management_page_not_found.tpl": "Templates/errorservice_404.tpl"
+    }
+}

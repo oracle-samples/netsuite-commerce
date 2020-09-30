@@ -1,0 +1,9 @@
+{
+  "type": "object"
+, "modifications":
+  [{
+    "target": "$.resource.template.facets-item-cell"
+  , "action": "add"
+  , "value": "facets_item_cell_portrait.tpl"
+  }]
+}

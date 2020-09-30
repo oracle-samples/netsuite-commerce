@@ -1,0 +1,74 @@
+{
+    "name": "MultiModule",
+    "fantasyName": "MultiModule",
+    "vendor": "Example",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCS,SCA",
+    "description": "An example of how to use multiple modules within an extension",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": [
+                "img/ModuleOne/img1.jpg",
+                "img/ModuleTwo/img1.jpg"
+            ]
+        },
+        "fonts": {
+            "files": []
+        }
+    },
+    "configuration": {
+        "files": []
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/ModuleOne/Templates/module_one.tpl"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/ModuleOne/Templates/module_one.tpl"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/ModuleOne/Templates/module_one.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/ModuleOne/JavaScript/ModuleOne.js",
+            "myaccount": "Modules/ModuleTwo/JavaScript/ModuleTwo.js",
+            "checkout": "Modules/ModuleTwo/JavaScript/ModuleTwo.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/ModuleOne/JavaScript/ModuleOne.js",
+                    "Modules/ModuleTwo/JavaScript/ModuleTwo.js",
+                    "Modules/ModuleOne/JavaScript/ModuleOne.View.js"
+                ]
+            },
+            "myaccount": {
+                "files": [
+                    "Modules/ModuleOne/JavaScript/ModuleOne.js",
+                    "Modules/ModuleTwo/JavaScript/ModuleTwo.js",
+                    "Modules/ModuleOne/JavaScript/ModuleOne.View.js"
+                ]
+            },
+            "checkout": {
+                "files": [
+                    "Modules/ModuleOne/JavaScript/ModuleOne.js",
+                    "Modules/ModuleTwo/JavaScript/ModuleTwo.js",
+                    "Modules/ModuleOne/JavaScript/ModuleOne.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace/MultiModule"
+}

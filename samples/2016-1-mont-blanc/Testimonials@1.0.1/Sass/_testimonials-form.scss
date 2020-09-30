@@ -1,0 +1,73 @@
+.testimonials-form {
+  @extend .container;
+  background: $sc-color-theme-background-light;
+  padding: $sc-base-padding * 3;
+
+}
+.testimonials-form-content {
+  @extend .row;
+
+  @media (min-width: $screen-md-min){
+    margin: 0;
+    @extend .col-md-12;
+  }
+}
+.testimonials-form-content-title {
+  @extend .input-label;
+  margin-top: $sc-base-margin * 4;
+}
+.testimonials-form-content-label-required {
+  @extend .input-optional;
+  display: block;
+}
+.testimonials-form-content-required {
+  @extend .input-required;
+}
+.testimonials-form-content-rating {
+  @extend .clearfix;
+}
+.testimonials-form-content-group {
+  clear: both;
+  padding: 0;
+
+  .testimonials-form-help {
+    margin-top: $sc-base-margin;
+    margin-bottom: $sc-base-margin;
+  }
+}
+.testimonials-form-content-groups {
+  padding: 0;
+  float: left;
+  clear: both;
+  margin-bottom: $sc-base-margin * 3;
+
+  @media (min-width: $screen-md-min){
+    margin-bottom: $sc-base-margin * 4;
+    clear: both;
+    @extend .col-md-8;
+  }
+}
+.testimonials-form-content-group-label {
+  @extend .input-label;
+  display: inline-block;
+  margin-top: $sc-base-margin * 4;
+  margin-bottom: $sc-base-margin;
+}
+.testimonials-form-content-group-input {
+  @extend .input-generic;
+  margin-bottom: $sc-base-margin;
+}
+.testimonials-form-content-group-text {
+  @extend .input-textarea;
+  min-width: 100%;
+}
+.testimonials-form-actions {
+  @extend .row;
+  padding: $sc-base-margin * 6 $sc-base-margin * 3 $sc-base-margin * 4;
+  clear: both;
+}
+.testimonials-form-actions-button-submit {
+  @extend .button-large;
+  @extend .button-primary;
+  float: right;
+}

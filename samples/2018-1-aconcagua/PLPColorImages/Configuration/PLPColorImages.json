@@ -1,0 +1,19 @@
+{
+  "type": "object"
+, "subtab":
+  {
+    "id": "plpColorImages"
+  , "title": "PLP Color Images"
+  , "group": "catalog"
+  }
+, "properties":
+  {
+    "plpColorImages.customColorId":
+    {
+      "group": "catalog"
+    , "subtab": "plpColorImages"
+    , "type": "string"
+    , "title": "Custom Field ID for Color"
+    }
+  }
+}

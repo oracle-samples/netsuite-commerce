@@ -1,0 +1,19 @@
+.facets-facet-browse-portrait {
+    display: flex;
+    overflow: auto;
+}
+
+.facets-item-cell-portrait {
+    width: 65vw;
+}
+
+.facets-item-cell-portrait-name,
+.facets-item-cell-portrait-quickaddtocart {
+    text-align: center;
+    margin: $sc-small-margin 0;
+}
+
+.icon-display-portrait {
+    @extend .fa;
+    @extend %fa-picture-o;
+}

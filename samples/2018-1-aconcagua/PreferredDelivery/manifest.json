@@ -1,0 +1,49 @@
+{
+    "name": "PreferredDelivery",
+    "fantasyName": "Preferred Delivery",
+    "vendor": "Example",
+    "version": "1.0.1",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "description": "Allows the capture of a preferred delivery slot",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        }
+    },
+    "sass": {
+        "entry_points": {
+            "checkout": "Modules/PreferredDelivery/Sass/_preferreddelivery.scss"
+        },
+        "files": [
+            "Modules/PreferredDelivery/Sass/_preferreddelivery.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "checkout": {
+                "files": [
+                    "Modules/PreferredDelivery/Templates/example_preferreddelivery_preferreddelivery.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "checkout": "Modules/PreferredDelivery/JavaScript/Example.PreferredDelivery.PreferredDelivery.js"
+        },
+        "application": {
+            "checkout": {
+                "files": [
+                    "Modules/PreferredDelivery/JavaScript/Example.PreferredDelivery.PreferredDelivery.js",
+                    "Modules/PreferredDelivery/JavaScript/Example.PreferredDelivery.PreferredDelivery.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace/PreferredDelivery"
+}

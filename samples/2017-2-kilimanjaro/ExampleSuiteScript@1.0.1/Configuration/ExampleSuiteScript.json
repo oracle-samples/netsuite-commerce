@@ -1,0 +1,22 @@
+{
+  "type": "object"
+
+, "subtab":
+  {
+    "id": "exampleSuiteScript"
+  , "title": "Example SuiteScript Module"
+  , "group": "shoppingApplication"
+  }
+
+, "properties":
+  {
+    "exampleSuiteScript.enabled":
+    {
+      "group": "shoppingApplication"
+    , "subtab": "exampleSuiteScript"
+    , "type": "boolean"
+    , "title": "Enabled"
+    , "default": false
+    }
+  }
+}

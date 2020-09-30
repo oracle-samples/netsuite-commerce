@@ -1,0 +1,11 @@
+.preferreddelivery-title {
+    @extend .order-wizard-title;
+}
+
+.preferreddelivery-container {
+    @extend .box-column;
+}
+
+.preferreddelivery-input {
+    @extend .input-large;
+}

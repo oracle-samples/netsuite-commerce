@@ -1,0 +1,19 @@
+.free-shipping-bar-container {
+    padding-bottom: $sc-base-padding * 3;
+}
+
+.free-shipping-bar-message {
+    padding: $sc-base-padding * 2;
+    text-align: center;
+}
+
+.free-shipping-bar-progress {
+    max-width: 100%;
+    background: red;
+    height: 25px;
+}
+
+.free-shipping-bar-message-tooltip {
+    @extend .sc-tooltip;
+    @extend .icon-question-sign;
+}

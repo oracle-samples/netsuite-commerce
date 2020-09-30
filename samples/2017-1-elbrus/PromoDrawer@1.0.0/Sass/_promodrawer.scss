@@ -1,0 +1,65 @@
+.promodrawer-drawer {
+    position: fixed;
+    bottom: -275px;
+    z-index: 9000;
+    height: 300px;
+    width: 100%;
+    cursor: pointer;
+    transition: ease-in 500ms;
+    text-align: center;
+}
+
+.promodrawer-drawer.open {
+    bottom: 0;
+}
+
+.promodrawer-drawer-handle {
+    margin: 0 auto;
+    max-width: 300px;
+    background: $sc-color-primary;
+}
+
+.promodrawer-drawer-content {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.promodrawer-drawer-content-block {
+    display: inline-block;
+    height: 265px;
+    width: 400px;
+    padding: $sc-base-padding * 3;
+}
+
+.promodrawer-drawer-content-block1 {
+    @extend .promodrawer-drawer-content-block;
+    background: $sc-color-theme;
+}
+
+.promodrawer-drawer-content-block2 {
+    @extend .promodrawer-drawer-content-block;
+    background: $sc-color-theme-light;
+}
+
+.promodrawer-drawer-content-block3 {
+    @extend .promodrawer-drawer-content-block;
+    background: $sc-color-theme-background;
+}
+
+.promodrawer-notification-link {
+    @extend %header-link;
+}
+
+.promodrawer-notification-icon {
+    @extend .fa;
+    @extend %fa-envelope;
+    color: $sc-color-secondary;
+    font-size: $sc-h3-font-size;
+    line-height: $sc-target-size;
+    min-width: $sc-target-size;
+}
+
+.promodrawer-notification-icon.unread {
+    color: $sc-color-primary;
+}

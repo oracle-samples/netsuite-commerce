@@ -1,0 +1,58 @@
+{
+    "name": "SCCCTEncourage",
+    "vendor": "Steve Goldberg",
+    "version": "2.1.0",
+    "type": "extension",
+    "target": "SCS",
+    "description": "Encourages shoppers to buy products of a certain color",
+    "cct": {
+        "icon": "img/cct_example_sccctencourage_icon.svg",
+        "settings_record": "customrecordcct_example_sccctencou",
+        "registercct_id": "cct_example_sccctencourage"
+    },
+    "assets": {
+        "img": {
+            "files": [
+                "img/cct_example_sccctencourage_icon.svg",
+                "img/buyorange.png"
+            ]
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": []
+        }
+    },
+    "sass": {
+        "entry_points": {
+            "shopping": "Modules/Example.SCCCTEncourage.Encourage/Sass/_sccctencourage-encourage.scss"
+        },
+        "files": [
+            "Modules/Example.SCCCTEncourage.Encourage/Sass/_sccctencourage-encourage.scss"
+        ]
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Example.SCCCTEncourage.Encourage/Templates/example_sccctencourage_encourage.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/Example.SCCCTEncourage.Encourage/JavaScript/Example.SCCCTEncourage.Encourage.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Example.SCCCTEncourage.Encourage/JavaScript/Example.SCCCTEncourage.Encourage.js",
+                    "Modules/Example.SCCCTEncourage.Encourage/JavaScript/Example.SCCCTEncourage.Encourage.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace/SCCCTEncourage"
+}

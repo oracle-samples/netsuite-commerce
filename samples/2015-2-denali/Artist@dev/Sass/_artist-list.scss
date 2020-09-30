@@ -1,0 +1,56 @@
+// Copyright (c) 2019, Oracle and/or its affiliates. All rights reserved.
+// Licensed under the Universal Permissive License v 1.0 as shown at http://oss.oracle.com/licenses/upl.
+
+.artist-list-header {
+    @extend .list-header;
+    position: relative;
+    margin-bottom: $sc-base-margin * 3;
+    display: inline-block;
+    width: 100%;
+}
+.artist-list-title {
+    @extend .list-header-title;
+    float:none;
+    @media (min-width: $screen-sm-min) {
+        float: left;
+    }
+}
+.artist-list-header-button-new {
+    @extend .list-header-button;
+    margin-top: $sc-base-padding * 4;
+    position: absolute;
+    top:25;
+    z-index:1;
+    right: 0;
+
+    @media (min-width: $screen-sm-min) {
+        margin-top: 0;
+        z-index:0;
+        top: 0;
+        margin-bottom: $sc-base-margin * 3;
+    }
+}
+.artist-list-results-container
+{
+    @media (min-width: $screen-md-min) {
+        .artist-list-results-table-header-row-id {
+            width: 20%;
+        }
+        .artist-list-results-table-header-row-artist {
+            width: 30%;
+        }
+        .artist-list-results-table-header-row-genre {
+            width: 30%;
+        }
+        .artist-list-results-table-header-row-actions {
+            text-align: center;
+        }
+    }
+}
+.artist-list-results-table {
+    @extend .recordviews-table;
+}
+.artist-list-results-table-header {
+    @extend .recordviews-row-header;
+    border-top: 1px solid $sc-color-theme-light;
+}

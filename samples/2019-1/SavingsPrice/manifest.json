@@ -1,0 +1,33 @@
+{
+    "name": "SavingsPrice",
+    "fantasyName": "SavingsPrice",
+    "vendor": "Example",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "description": "Displays the cost saving of the current volume discount",
+    "skins": [],
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/SavingsPrice/Templates/codesample_savingsprice.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/SavingsPrice/JavaScript/CodeSample.SavingsPrice.SavingsPrice.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/SavingsPrice/JavaScript/CodeSample.SavingsPrice.SavingsPrice.js",
+                    "Modules/SavingsPrice/JavaScript/CodeSample.SavingsPrice.SavingsPrice.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace/SavingsPrice"
+}

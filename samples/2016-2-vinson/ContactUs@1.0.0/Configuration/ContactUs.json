@@ -1,0 +1,38 @@
+{
+  "type": "object"
+
+, "subtab":
+  {
+    "id": "contactUs"
+  , "title": "Contact Us"
+  , "group": "shoppingApplication"
+  }
+
+, "properties":
+  {
+    "contactUs.enabled":
+    {
+      "group": "shoppingApplication"
+    , "subtab": "contactUs"
+    , "type": "boolean"
+    , "title": "Enabled"
+    , "default": false
+    }
+
+  , "contactUs.formId":
+    {
+      "group": "shoppingApplication"
+    , "subtab": "contactUs"
+    , "type": "string"
+    , "title": "Form ID"
+    }
+
+  , "contactUs.hash":
+    {
+      "group": "shoppingApplication"
+    , "subtab": "contactUs"
+    , "type": "string"
+    , "title": "Generated Hash"
+    }
+  }
+}

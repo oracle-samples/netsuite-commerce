@@ -1,0 +1,19 @@
+.plpitemcolors-hover-container {
+    position: absolute;
+    right: -1500px;
+    top: 0;
+    transition: 1s;
+}
+
+.facets-item-cell-list:hover .plpitemcolors-hover-container {
+    right: 0;
+}
+
+.plpitemcolors-hover-block {
+    display: inline-block;
+}
+
+.plpitemcolors-hover-block span {
+    display: block;
+    text-align: center;
+}

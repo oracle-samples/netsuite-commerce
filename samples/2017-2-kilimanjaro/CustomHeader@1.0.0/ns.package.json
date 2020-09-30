@@ -1,0 +1,11 @@
+{
+  "gulp":
+  {
+    "sass": ["Sass/**/*.scss"]
+  , "templates": ["Templates/*"]
+  }
+, "overrides": {
+    "suitecommerce/Header@1.3.1/Templates/header.tpl": "Templates/custom_header.tpl"
+  , "suitecommerce/Header@1.3.1/Templates/header_profile.tpl": "Templates/custom_profile.tpl"
+  }
+}

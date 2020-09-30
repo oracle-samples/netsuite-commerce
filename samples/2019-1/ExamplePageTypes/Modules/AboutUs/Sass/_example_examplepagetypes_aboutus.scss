@@ -1,0 +1,132 @@
+.aboutus-list {
+    @extend .container;
+}
+
+.aboutus-container {
+    padding-top: $sc-padding-base * 10;
+}
+
+.aboutus-details-container {
+    @extend .container;
+    min-height: 250px;
+    margin-bottom: $sc-margin-base * 20;
+    position: relative;
+}
+
+.aboutus-details-image {
+    clear: both;
+    float: right;
+    padding: 0 0 $sc-padding-base * 10 $sc-padding-base * 10;
+}
+
+.aboutus-icon-container {
+    display: inline-block;
+    padding: 2%;
+    text-align: center;
+    width: 100%;
+
+    @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+        width: 50%;
+        padding: 2%;
+    };
+
+    @media (min-width: $screen-sm-max) {
+        width: 33%;
+        padding: 2%;
+    };
+}
+
+.aboutus-icon-image {
+    border-radius: 50%;
+
+    @media (min-width: $screen-sm-max) {
+        filter: grayscale(1);
+        &:hover {
+            filter: grayscale(0);
+            transition: 0.5s;
+        }
+    }
+}
+
+/* Crown example from https://codepen.io/varystrategic/pen/qOWXdX */
+
+$size: 10rem;
+
+.crown {
+    position: absolute;
+    right: -20px;
+    transform: translate(-50%,-50%);
+    width: $size;
+    height: $size/1.1;
+    overflow: hidden;
+
+    &:after {
+        content: '';
+        position: absolute;
+        bottom: $size/-8;
+        left: 0;
+        width: 100%;
+        height: $size/2;
+        background-color: gold;
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+    }
+
+    .point {
+        position: absolute;
+        background-color: gold;
+        transform: translate(-50%,50%) rotate(45deg) skew(30deg,30deg);
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: $size/5;
+            height: $size/5;
+            border-radius: $size/5;
+            background-color: gold;
+            transform: translate(-50%,-50%) skew(-30deg,-30deg);
+        }
+
+        &:first-child,
+        &:last-child {
+            top: $size/2;
+            width: $size;
+            height: $size;
+        }
+
+        &:nth-child(2),
+        &:nth-child(4) {
+            top: $size/3;
+            width: $size;
+            height: $size;
+        }
+
+        &:nth-child(3) {
+            top: $size/4;
+            width: $size;
+            height: $size;
+        }
+
+        &:first-child {
+            left: 0;
+        }
+
+        &:nth-child(2) {
+            left: 25%;
+        }
+
+        &:nth-child(3) {
+            left: 50%;
+        }
+
+        &:nth-child(4) {
+            left: 75%;
+        }
+
+        &:last-child {
+            left: 100%;
+        }
+    }
+}

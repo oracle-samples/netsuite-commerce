@@ -1,0 +1,27 @@
+{
+  "type": "object"
+, "subtab":
+  {
+    "id": "plpItemColors"
+  , "title": "PLP Item Colors"
+  , "group": "catalog"
+  }
+, "properties":
+  {
+    "plpItemColors.customColorId":
+    {
+      "group": "catalog"
+    , "subtab": "plpItemColors"
+    , "type": "string"
+    , "title": "Custom Field ID for Color"
+    }
+  , "plpItemColors.rejectDefault":
+    {
+      "group": "catalog"
+    , "subtab": "plpItemColors"
+    , "type": "boolean"
+    , "title": "Hide Default Color"
+    , "default": false
+    }
+  }
+}

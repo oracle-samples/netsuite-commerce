@@ -1,0 +1,43 @@
+{
+    "name": "Name",
+    "fantasyName": "Fantasy Name",
+    "vendor": "Vendor",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "description": "Description",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": [
+                "img/lookingfororangethings.png"
+            ]
+        },
+        "fonts": {
+            "files": []
+        }
+    },
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Module/Templates/plpstuff_banner.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/Module/JavaScript/PLPStuff.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Module/JavaScript/PLPStuff.js",
+                    "Modules/Module/JavaScript/PLPStuff.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace/Name"
+}

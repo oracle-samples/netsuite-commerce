@@ -1,0 +1,1 @@
+{{#if savingsPrice}}<p>{{translate 'You\'ll save $(0) per item ($(1))' savingsPrice savingsPricePercentage}}</p>{{/if}}

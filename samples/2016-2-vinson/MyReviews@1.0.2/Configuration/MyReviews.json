@@ -1,0 +1,19 @@
+{
+  "type": "object"
+
+, "subtab": {
+    "id": "myreviews"
+  , "group": "myAccountApp"
+  , "title": "My Reviews"
+  }
+
+, "properties" : {
+    "myreviews.isEnabled": {
+      "group": "myAccountApp"
+    , "subtab": "myreviews"
+    , "type": "boolean"
+    , "default": false
+    , "title": "Enable My Reviews"
+    }
+  }
+}

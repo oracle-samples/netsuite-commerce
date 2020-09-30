@@ -1,0 +1,26 @@
+{
+  "type": "object"
+
+, "subtab": {
+    "id": "freeshippingbar"
+  , "group": "shoppingApplication"
+  , "title": "Free Shipping Bar"
+  }
+
+, "properties" : {
+    "freeshippingbar.isEnabled": {
+      "group": "shoppingApplication"
+    , "subtab": "freeshippingbar"
+    , "type": "boolean"
+    , "default": false
+    , "title": "Enable Free Shipping Bar"
+    }
+  , "freeshippingbar.threshold.usd": {
+      "group": "shoppingApplication"
+    , "subtab": "freeshippingbar"
+    , "type": "integer"
+    , "default": 50
+    , "title": "Free Shipping Threshold (USD)"
+    }
+  }
+}

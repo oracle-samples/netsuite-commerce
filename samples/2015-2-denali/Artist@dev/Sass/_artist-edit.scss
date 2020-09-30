@@ -1,0 +1,25 @@
+// Copyright (c) 2019, Oracle and/or its affiliates. All rights reserved.
+// Licensed under the Universal Permissive License v 1.0 as shown at http://oss.oracle.com/licenses/upl.
+
+.artist-edit {
+    @extend .box-column-bordered;
+}
+.artist-edit-header {
+    margin-bottom: $sc-medium-margin;
+}
+.artist-edit-form-name, .artist-edit-form-genre, .artist-edit-form-submit {
+    @extend .control-group;
+}
+.artist-edit-form-label {
+    @extend .input-label;
+}
+.artist-edit-form-input {
+    @extend .input-large;
+}
+.artist-edit-form-label-required {
+    @extend .input-required;
+}
+.artist-edit-form-submit-button {
+    @extend .button-primary;
+    @extend .button-medium;
+}

@@ -1,0 +1,20 @@
+.myreviews-detail-container {
+    @extend .row;
+    margin: $sc-medium-margin 0;
+}
+.myreviews-detail-side {
+    @extend .col-xs-3;
+    padding-top: $sc-base-padding;
+}
+.myreviews-detail-body {
+    @extend .col-xs-9;
+    padding-top: $sc-base-padding;
+}
+.myreviews-detail-body-rating {
+    display: inline-block;
+}
+.myreviews-detail-body-date {
+    font-weight: $sc-font-weight-bold;
+    font-size: $sc-button-small-font-size;
+    color: $sc-color-theme;
+}

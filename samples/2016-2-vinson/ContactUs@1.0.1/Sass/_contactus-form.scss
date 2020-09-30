@@ -1,0 +1,43 @@
+.contactus-container {
+    @extend .container;
+}
+
+.contactus-form {
+    margin: $sc-base-margin * 3;
+}
+
+.contactus-firstname,
+.contactus-lastname,
+.contactus-email,
+.contactus-subject,
+.contactus-message {
+    @extend .row;
+
+    label {
+        @extend .input-label;
+    }
+
+    input {
+        @extend .input-large;
+    }
+}
+
+.contactus-message textarea {
+    @extend .input-textarea;
+    display: block;
+    width: 100%;
+}
+
+.contactus-required {
+    @extend .input-required;
+}
+
+.contactus-button-container {
+    @extend .row;
+    margin-top: $sc-base-margin * 4;
+}
+
+.contactus-button-submit {
+    @extend .button-primary;
+    @extend .button-medium;
+}

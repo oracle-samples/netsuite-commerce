@@ -1,0 +1,8 @@
+.download-order-csv-container {
+    margin: $sc-margin-lv2 0;
+}
+
+.download-order-csv-button {
+    @extend .button-secondary;
+    @extend .button-medium;
+}
