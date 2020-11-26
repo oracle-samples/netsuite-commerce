@@ -1,0 +1,6 @@
+<list id="kpi_ranges_daterange_or_period">
+	<value internal="FYBL">FISCAL_YEAR_BEFORE_LAST</value>
+	<value internal="LFY">LAST_FISCAL_YEAR</value>
+	<value internal="TFY">THIS_FISCAL_YEAR</value>
+</list>
+

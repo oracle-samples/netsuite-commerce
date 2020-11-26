@@ -1,0 +1,5 @@
+<list id="role_restrictions">
+	<value>DEFAULTTOOWN</value>
+	<value>UNASSIGNED</value>
+	<value>OWNONLY</value>
+</list>

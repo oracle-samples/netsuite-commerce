@@ -1,0 +1,5 @@
+<list id='generic_customfield_insertbefore'>
+    <value>999999</value><!-- Last -->
+    <value>-1000000</value><!-- Outside columns at top -->
+    <value>1000000</value><!-- Outside columns at bottom -->
+</list>

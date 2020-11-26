@@ -1,0 +1,12 @@
+<list id='csvimport_encoding'>
+	    <value internal="UTF-8">UTF_8</value>
+	    <value internal="windows-1252">windows-1252</value>
+	    <value internal="ISO-8859-1">ISO_8859_1</value>
+	    <value internal="GB18030">GB18030</value>
+	    <value internal="GBK">GBK</value>
+	    <value internal="Big5">Big5</value>
+	    <value internal="SHIFT_JIS">SHIFT_JIS</value>
+	    <value internal="MacRoman">MacRoman</value>
+	    <value internal="ISO-2022-KR">ISO_2022_KR</value>
+	    <value internal="EUC-KR">EUC_KR</value>
+</list>

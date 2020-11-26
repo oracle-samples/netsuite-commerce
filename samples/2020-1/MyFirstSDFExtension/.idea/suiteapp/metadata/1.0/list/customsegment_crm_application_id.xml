@@ -1,0 +1,10 @@
+<list id='customsegment_crm_application_id'>
+	<value>CALENDAREVENT</value>
+	<value feature="MARKETING">CAMPAIGN</value>
+	<value feature="ISSUEDB">ISSUE</value>
+	<value>PHONECALL</value>
+	<value feature="ADVANCEDJOBS">PROJECTTASK</value>
+	<value feature="KNOWLEDGEBASE">SOLUTION</value>
+	<value feature="SUPPORT">SUPPORTCASE</value>
+	<value>TASK</value>
+</list>

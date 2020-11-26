@@ -1,0 +1,6 @@
+<list id='portlet_trendgraph_charttype'>
+	<value internal="trendgraph_area">AREA</value>
+	<value internal="trendgraph_line">LINE</value>
+	<value internal="trendgraph_bar">BAR</value>
+	<value internal="trendgraph_column">COLUMN</value>
+</list>

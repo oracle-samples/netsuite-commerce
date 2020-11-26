@@ -1,0 +1,11 @@
+<list id='generic_item_tab'>
+	<value>ITEMBASIC</value>
+	<value>ITEMCOMMUNICATION</value>
+	<value>ITEMINVENTORY</value>
+	<value>ITEMLOCATIONS</value>
+	<value>ITEMMAIN</value>
+	<value>ITEMMATRIX</value>
+	<value>ITEMPURCHASINGINVENTORY</value>
+	<value>ITEMSYSTEMINFORMATION</value>
+	<value>ITEMVENDORS</value>
+</list>

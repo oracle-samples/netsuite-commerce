@@ -1,0 +1,7 @@
+<list id='emailtemplate_recordtype'>
+	<value>ENTITY</value>
+	<value>TRANSACTION</value>
+	<value>CUSTOM</value>
+	<value>EVENT</value>
+	<value>PROJECT</value>
+</list>

@@ -1,0 +1,12 @@
+<list id='customrecordtype_searchresults'>
+	<value>INVENTORYSTATUS</value>
+	<value>SALESORDERSTOFULFILL</value>
+	<value>PURCHASEORDERSTORECEIVE</value>
+	<value>ISSUEONLINEVIEW</value>
+	<value>INVENTORYNUMBERONHANDSUBLISTVIEW</value>
+	<value>BINONHANDSUBLISTVIEW</value>
+	<value>BININVENTORYNUMBERONHANDSUBLISTVIEW</value>
+	<value>CONSOLIDATEDEXCHANGERATES</value>
+	<value>DEFAULTWORKPLACEVIEW</value>
+	<value>BUDGETEXCHANGERATES</value>
+</list>

@@ -1,0 +1,9 @@
+<list id="generic_day_of_week">
+	<value internal="1">SUNDAY</value>
+	<value internal="2">MONDAY</value>
+	<value internal="3">TUESDAY</value>
+	<value internal="4">WEDNESDAY</value>
+	<value internal="5">THURSDAY</value>
+	<value internal="6">FRIDAY</value>
+	<value internal="7">SATURDAY</value>
+</list>

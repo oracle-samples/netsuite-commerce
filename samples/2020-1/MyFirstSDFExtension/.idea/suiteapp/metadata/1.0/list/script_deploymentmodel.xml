@@ -1,0 +1,4 @@
+<list id='script_deploymentmodel'>
+    <value>PLUGIN_TYPE_DEPLOYMENT_ALLOW_MULTIPLE</value>
+    <value>PLUGIN_TYPE_DEPLOYMENT_ALLOW_ONLY_ONE</value>
+</list>

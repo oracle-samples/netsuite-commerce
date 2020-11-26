@@ -1,0 +1,10 @@
+<list id='generic_customfield_fldfiltercomparetype'>
+	<value>EQ</value>
+	<value>NE</value>
+	<value>LIKE</value>
+	<value>NOTLIKE</value>
+	<value>LTE</value>
+	<value>LT</value>
+	<value>GTE</value>
+	<value>GT</value>
+</list>

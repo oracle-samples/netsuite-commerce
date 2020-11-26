@@ -1,0 +1,77 @@
+<list id='workflow_recordtype'>
+    <value>-112</value> <!-- Account !-->
+    <value>-253</value> <!-- Accounting Book !-->
+    <value>-105</value> <!-- Accounting Period !-->
+    <value>-255</value> <!-- App Definition !-->
+    <value>-254</value> <!-- App Package !-->
+    <value>-139</value> <!-- Billing Class !-->
+    <value>-141</value> <!-- Billing Schedule !-->
+    <value>-242</value> <!-- Bin !-->
+    <value>-22</value> <!-- Call !-->
+    <value>-24</value> <!-- Campaign !-->
+    <value>-130</value> <!-- Campaign Response !-->
+    <value>-23</value> <!-- Case !-->
+    <value>-290</value> <!-- Charge !-->
+    <value>-101</value> <!-- Class !-->
+    <value>-108</value> <!-- Competitor !-->
+    <value>-6</value> <!-- Contact !-->
+    <value>-158</value> <!-- Contact Category !-->
+    <value>-157</value> <!-- Contact Role !-->
+    <value>-155</value> <!-- Cost Category !-->
+    <value>-122</value> <!-- Currency !-->
+    <value>-2</value> <!-- Customer !-->
+    <value>-109</value> <!-- Customer Category !-->
+    <value>-161</value> <!-- Customer Message !-->
+    <value>-102</value> <!-- Department !-->
+    <value>-120</value> <!-- Email Template !-->
+    <value>-4</value> <!-- Employee !-->
+    <value>-252</value> <!-- Entity Account Mapping !-->
+    <value>-104</value> <!-- Entity Status !-->
+    <value>-20</value> <!-- Event !-->
+    <value>-126</value> <!-- Expense Category !-->
+    <value>-250</value> <!-- Global Account Mapping !-->
+    <value>-355</value> <!-- HCMJob !-->
+    <value>-26</value> <!-- Issue !-->
+    <value>-10</value> <!-- Item !-->
+    <value>-251</value> <!-- Item Account Mapping !-->
+    <value>-246</value> <!-- Item Demand Plan !-->
+    <value>-269</value> <!-- Item Revision !-->
+    <value>-247</value> <!-- Item Supply Plan !-->
+    <value>-7</value> <!-- Job !-->
+    <value>-103</value> <!-- Location !-->
+    <value>-294</value> <!-- Manufacturing Cost Template !-->
+    <value>-36</value> <!-- Manufacturing Operation Task !-->
+    <value>-288</value> <!-- Manufacturing Routing !-->
+    <value>-303</value> <!-- Note !-->
+    <value>-180</value> <!-- Note Type !-->
+    <value>-31</value> <!-- Opportunity !-->
+    <value>-181</value> <!-- Other Name Category !-->
+    <value>-5</value> <!-- Partner !-->
+    <value>-182</value> <!-- Partner Category !-->
+    <value>-183</value> <!-- Payment Method !-->
+    <value>-265</value> <!-- Payroll Item !-->
+    <value>-350</value> <!-- Position !-->
+    <value>-186</value> <!-- Price Level !-->
+    <value>-187</value> <!-- Pricing Group !-->
+    <value>-287</value> <!-- Project Expense Type !-->
+    <value>-27</value> <!-- Project Task !-->
+    <value>-177</value> <!-- Project Type !-->
+    <value>-121</value> <!-- Promotion Code !-->
+    <value>-28</value> <!-- Resource Allocation !-->
+    <value>-191</value> <!-- Sales Role !-->
+    <value>-309</value> <!-- Shipping Partner Registration !-->
+    <value>-25</value> <!-- Solution !-->
+    <value>-117</value> <!-- Subsidiary !-->
+    <value>-21</value> <!-- Task !-->
+    <value>-128</value> <!-- Tax Code !-->
+    <value>-127</value> <!-- Tax Period !-->
+    <value>-199</value> <!-- Term !-->
+    <value>-345</value> <!-- Termination Reason !-->
+    <value>-295</value> <!-- Time Entry !-->
+    <value>-292</value> <!-- Timesheet !-->
+    <value>-30</value> <!-- Transaction !-->
+    <value>-201</value> <!-- Units Type !-->
+    <value>-3</value> <!-- Vendor !-->
+    <value>-110</value> <!-- Vendor Category !-->
+    <value>-203</value> <!-- Win/Loss Reason !-->
+</list>

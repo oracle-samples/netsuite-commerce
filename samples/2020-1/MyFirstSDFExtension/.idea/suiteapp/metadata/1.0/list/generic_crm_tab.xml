@@ -1,0 +1,10 @@
+<list id='generic_crm_tab'>
+	<value>CRMBUDGET</value>
+	<value>CRMCONTACTS</value>
+	<value>CRMKEYWORD</value>
+	<value>CRMMAIN</value>
+	<value>CRMMESSAGE</value>
+	<value>CRMRELATEDINFO</value>
+	<value>CRMRELATEDRECORDS</value>
+	<value>CRMSYSTEMINFORMATION</value>
+</list>

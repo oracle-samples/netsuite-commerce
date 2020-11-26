@@ -1,0 +1,24 @@
+<list id='generic_customfield_fieldtype'>
+    <value>CHECKBOX</value>
+	<value>CLOBTEXT</value>
+    <value>CURRENCY</value>
+    <value>DATE</value>
+    <value>DATETIMETZ</value>
+    <value>DOCUMENT</value>
+    <value>EMAIL</value>
+	<value>FLOAT</value>
+    <value>HELP</value>
+    <value>IMAGE</value>
+    <value>INLINEHTML</value>
+    <value>INTEGER</value>
+	<value>MULTISELECT</value>
+	<value>PASSWORD</value>
+	<value>PERCENT</value>
+	<value>PHONE</value>
+	<value>RICHTEXT</value>
+    <value>SELECT</value><!-- List/Record -->
+	<value>TEXT</value>
+    <value>TEXTAREA</value>
+    <value>TIMEOFDAY</value>
+	<value>URL</value>
+</list>

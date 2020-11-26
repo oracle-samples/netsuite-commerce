@@ -1,0 +1,13 @@
+<list id='workflowaction_triggertype'>
+    <value>AFTERFIELDEDIT</value>
+    <value>AFTERFIELDSOURCING</value>
+    <value>AFTERSUBMIT</value>
+    <value>BEFOREFIELDEDIT</value>
+    <value>BEFORELOAD</value>
+    <value>BEFORESUBMIT</value>
+    <value>BEFOREUSEREDIT</value>
+    <value>BEFOREUSERSUBMIT</value>
+    <value>ONENTRY</value>
+    <value>ONEXIT</value>
+    <value>SCHEDULED</value>
+</list>

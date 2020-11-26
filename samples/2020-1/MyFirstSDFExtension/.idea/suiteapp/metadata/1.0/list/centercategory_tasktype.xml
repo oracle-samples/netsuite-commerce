@@ -1,0 +1,26 @@
+<!--
+	Different types of prefixes that are supported for the following custom objects that generate task links on creation:
+	Custom Record Type
+	Script
+	Suitelet Script Deployment
+
+	There are additional custom objects that generate links, but whose prefixes are not explicitly called out here:
+
+	Some only have one type of task, so it is implicit in the reference to the object:
+	Custom Center Tab (CARD_)
+
+	Some are not yet exposed in SDF:
+	Report - runner (REPO_), composer (REPO_CUST_)
+	Custom Center Link (EXTL_)
+	Saved Searches - query page (SRCH_FORM_) , result page (SRCH_RSLT_)
+	Transaction type - EDIT_TRAN_CUSTOM_, LIST_TRAN_CUSTOM_ (could possibly reuse existing exposed prefixes list, edit
+-->
+<list id='centercategory_tasktype'>
+	<value>LIST</value>
+	<value>EDIT</value>
+	<value>SRCH</value>
+	<value>SCRIPT</value>
+	<value>CARD</value>
+	<value>SRCH_RSLT</value>
+	<value>SRCH_FORM</value>
+</list>

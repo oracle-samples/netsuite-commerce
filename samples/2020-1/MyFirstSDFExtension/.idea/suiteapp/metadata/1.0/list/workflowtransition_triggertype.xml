@@ -1,0 +1,7 @@
+<list id='workflowtransition_triggertype'>
+    <value>AFTERSUBMIT</value>
+    <value>BEFORELOAD</value>
+    <value>BEFORESUBMIT</value>
+    <value>ONENTRY</value>
+    <value>SCHEDULED</value>
+</list>

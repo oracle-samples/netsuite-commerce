@@ -1,0 +1,7 @@
+<list id="portlet_trendgraph_charttheme">
+	<value internal="trendgraph_basic">BASIC</value>
+	<value internal="trendgraph_colorful">COLORFUL</value>
+	<value internal="trendgraph_global_theme">GLOBAL_THEME</value>
+	<value internal="trendgraph_match_color_theme_bold">MATCH_COLOR_THEME___BOLD</value>
+	<value internal="trendgraph_match_color_theme_light">MATCH_COLOR_THEME___LIGHT</value>
+</list>

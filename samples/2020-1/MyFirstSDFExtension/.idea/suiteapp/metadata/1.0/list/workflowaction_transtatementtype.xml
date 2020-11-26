@@ -1,0 +1,7 @@
+<list id='workflowaction_transtatementtype'>
+    <value>INLINEABOVE</value>
+    <value>INLINEBELOW</value>
+    <value>DEFAULT</value>
+    <value>PDF</value>
+    <value>HTML</value>
+</list>

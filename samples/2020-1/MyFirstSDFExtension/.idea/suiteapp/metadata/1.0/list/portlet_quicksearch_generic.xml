@@ -1,0 +1,29 @@
+<list id='portlet_quicksearch_generic'>
+	<value internal="Activity_Activity_TITLE">ACTIVITY</value>
+	<value internal="Campaign_Campaign_TITLE" feature="MARKETING">CAMPAIGN</value>
+	<value internal="Case_Case_NUMBER" feature="SUPPORT">CASE_NUMBER</value>
+	<value internal="Contact_Entity_ENTITYID">CONTACT</value>
+	<value internal="Customer_Entity_ENTITYID">CUSTOMER</value>
+	<value internal="Document_Document_NAME">DOCUMENT</value>
+	<value internal="Transaction_Transaction_NUMBERTEXT">DOCUMENT_NUMBER</value>
+	<value internal="Entity_Entity_EMAIL">EMAIL</value>
+	<value internal="Employee_Entity_ENTITYID">EMPLOYEE</value>
+	<value internal="Calendar_Calendar_TITLE">EVENT</value>
+	<value internal="Issue_Issue_NUMBER" feature="ISSUEDB">ISSUE_NUMBER</value>
+	<value internal="Item_Item_NAME">ITEM</value>
+	<value internal="Job_Entity_ENTITYID">JOB</value>
+	<value internal="Promotion_Promotion_NAME" feature="PROMOCODES">NAME</value>
+	<value internal="Entity_Entity_ENTITYID">NAME_ID</value>
+	<value internal="Transaction_Transaction_POASTEXT">PO_CHECK_NUMBER</value>
+	<value internal="Partner_Entity_ENTITYID" feature="PRM">PARTNER</value>
+	<value internal="Entity_Entity_PHONE">PHONE</value>
+	<value internal="Call_Call_TITLE">PHONE_CALL</value>
+	<value internal="Page_Page_NAME">PRODUCT_PAGE</value>
+	<value internal="ProjectTask_ProjectTask_TITLE">PROJECT_TASK</value>
+	<value internal="Solution_Solution_FIND" feature="KNOWLEDGEBASE">SOLUTION</value>
+	<value internal="Task_Task_TITLE">TASK</value>
+	<value internal="Transaction_Transaction_TRACKINGNUMBER">TRACKING_NUMBER</value>
+	<value internal="Transaction_Transaction_TRANSACTIONNUMBERTEXT">TRANSACTION_NUMBER</value>
+	<value internal="Vendor_Entity_ENTITYID" feature="ACCOUNTING">VENDOR</value>
+	<value internal="Entity_Entity_ZIPCODE">ZIP_POSTAL_CODE</value>
+</list>

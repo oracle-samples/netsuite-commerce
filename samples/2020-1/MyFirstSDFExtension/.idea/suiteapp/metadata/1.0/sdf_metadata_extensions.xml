@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdfmetadataextensions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<recordtype name="commerceextension">
+		<attribute name="scriptid" type="string" mandatory="true" length="40" default="custcommerceextension"/>
+		<attribute name="objecttypeappid" type="string" mandatory="true"/>
+		<field name="vendor" type="string" mandatory="true"/>
+		<field name="name" type="string" mandatory="true"/>
+		<field name="version" type="string" mandatory="true"/>
+		<field name="type" type="string" mandatory="true"/>
+		<field name="description" type="string"/>
+		<field name="target" type="string" mandatory="true"/>
+		<field name="basepath" type="string" mandatory="true"/>
+		<fragment name="overrides" type="COLLECTION">
+			<fragment name="override" type="DEFAULT">
+				<field name="src" type="filereference"/>
+				<field name="dst" type="filereference"/>
+			</fragment>
+		</fragment>
+		<fragment name="configuration" type="DEFAULT"> 
+			<fragment name="files" type="COLLECTION">
+				<fragment name="file" type="DEFAULT">
+					<field name="filename" type="filereference"/>
+				</fragment>
+			</fragment>
+		</fragment>
+		<fragment name="javascript" type="DEFAULT">
+			<fragment name="entrypoints" type="DEFAULT">
+				<field name="shopping" type="filereference"/>
+				<field name="myaccount" type="filereference"/>
+				<field name="checkout" type="filereference"/>
+			</fragment>
+			<fragment name="application" type="DEFAULT">
+				<fragment name="myaccount" type="DEFAULT">
+					<fragment name="files" type="COLLECTION">
+						<fragment name="file" type="DEFAULT">
+							<field name="filename" type="filereference"/>
+						</fragment>
+					</fragment>
+				</fragment>
+				<fragment name="checkout" type="DEFAULT">
+					<fragment name="files" type="COLLECTION">
+						<fragment name="file" type="DEFAULT">
+							<field name="filename" type="filereference"/>
+						</fragment>
+					</fragment>
+				</fragment>
+				<fragment name="shopping" type="DEFAULT">
+					<fragment name="files" type="COLLECTION">
+						<fragment name="file" type="DEFAULT">
+							<field name="filename" type="filereference"/>
+						</fragment>
+					</fragment>
+				</fragment>
+			</fragment>
+		</fragment>
+		<fragment name="ssplibraries" type="DEFAULT">
+			<fragment name="entrypoints" type="COLLECTION">
+				<field name="entrypoint" type="filereference"/>
+			</fragment>
+			<fragment name="files" type="COLLECTION">
+				<fragment name="file" type="DEFAULT">
+					<field name="filename" type="filereference"/>
+				</fragment>
+			</fragment>
+		</fragment>
+		<fragment name="templates" type="DEFAULT">
+			<fragment name="application" type="DEFAULT">
+				<fragment name="myaccount" type="DEFAULT">
+					<fragment name="files" type="COLLECTION">
+						<fragment name="file" type="DEFAULT">
+							<field name="filename" type="filereference"/>
+						</fragment>
+					</fragment>
+				</fragment>
+				<fragment name="checkout" type="DEFAULT">
+					<fragment name="files" type="COLLECTION">
+						<fragment name="file" type="DEFAULT">
+							<field name="filename" type="filereference"/>
+						</fragment>
+					</fragment>
+				</fragment>
+				<fragment name="shopping" type="DEFAULT">
+					<fragment name="files" type="COLLECTION">
+						<fragment name="file" type="DEFAULT">
+							<field name="filename" type="filereference"/>
+						</fragment>
+					</fragment>
+				</fragment>
+			</fragment>
+		</fragment>
+		<fragment name="sass" type="DEFAULT">
+			<fragment name="entrypoints" type="DEFAULT">
+				<field name="shopping" type="filereference"/>
+				<field name="myaccount" type="filereference"/>
+				<field name="checkout" type="filereference"/>
+			</fragment>
+			<fragment name="files" type="COLLECTION">
+				<fragment name="file" type="DEFAULT">
+					<field name="filename" type="filereference"/>
+				</fragment>
+			</fragment>
+		</fragment>
+		<fragment name="assets" type="DEFAULT">
+			<fragment name="services" type="DEFAULT">
+				<fragment name="files" type="COLLECTION">
+					<fragment name="file" type="DEFAULT">
+						<field name="filename" type="filereference"/>
+					</fragment>
+				</fragment>
+			</fragment>
+			<fragment name="img" type="DEFAULT">
+				<fragment name="files" type="COLLECTION">
+					<fragment name="file" type="DEFAULT">
+						<field name="filename" type="filereference"/>
+					</fragment>
+				</fragment>
+			</fragment>
+			<fragment name="fontawesome" type="DEFAULT">
+				<fragment name="files" type="COLLECTION">
+					<fragment name="file" type="DEFAULT">
+						<field name="filename" type="filereference"/>
+					</fragment>
+				</fragment>
+			</fragment>
+		</fragment>
+	</recordtype>
+	<recordtype name="commercetheme">
+		<attribute name="scriptid" type="string" mandatory="true" length="40" default="custcommercetheme"/>
+		<attribute name="objecttypeappid" type="string" mandatory="true"/>
+		<field name="vendor" type="string" mandatory="true"/>
+		<field name="name" type="string" mandatory="true"/>
+		<field name="version" type="string" mandatory="true"/>
+		<field name="type" type="string" mandatory="true"/>
+		<field name="target" type="string" mandatory="true"/>
+		<field name="basepath" type="string" mandatory="true"/>
+		<fragment name="overrides" type="COLLECTION">
+			<fragment name="override" type="DEFAULT">
+				<field name="src" type="filereference"/>
+				<field name="dst" type="filereference"/>
+			</fragment>
+		</fragment>
+		<fragment name="templates" type="DEFAULT">
+			<fragment name="application" type="DEFAULT">
+				<fragment name="myaccount" type="DEFAULT">
+					<fragment name="files" type="COLLECTION">
+						<fragment name="file" type="DEFAULT">
+							<field name="filename" type="filereference"/>
+						</fragment>
+					</fragment>
+				</fragment>
+				<fragment name="checkout" type="DEFAULT">
+					<fragment name="files" type="COLLECTION">
+						<fragment name="file" type="DEFAULT">
+							<field name="filename" type="filereference"/>
+						</fragment>
+					</fragment>
+				</fragment>
+				<fragment name="shopping" type="DEFAULT">
+					<fragment name="files" type="COLLECTION">
+						<fragment name="file" type="DEFAULT">
+							<field name="filename" type="filereference"/>
+						</fragment>
+					</fragment>
+				</fragment>
+			</fragment>
+		</fragment>
+		<fragment name="sass" type="DEFAULT">
+			<fragment name="entrypoints" type="DEFAULT">
+				<field name="shopping" type="filereference"/>
+				<field name="myaccount" type="filereference"/>
+				<field name="checkout" type="filereference"/>
+			</fragment>
+			<fragment name="files" type="COLLECTION">
+				<fragment name="file" type="DEFAULT">
+					<field name="filename" type="filereference"/>
+				</fragment>
+			</fragment>
+		</fragment>
+		<fragment name="assets" type="DEFAULT">
+			<fragment name="img" type="DEFAULT">
+				<fragment name="files" type="COLLECTION">
+					<fragment name="file" type="DEFAULT">
+						<field name="filename" type="filereference"/>
+					</fragment>
+				</fragment>
+			</fragment>
+			<fragment name="fontawesome" type="DEFAULT">
+				<fragment name="files" type="COLLECTION">
+					<fragment name="file" type="DEFAULT">
+						<field name="filename" type="filereference"/>
+					</fragment>
+				</fragment>
+			</fragment>
+		</fragment>
+		<fragment name="skins" type="COLLECTION">
+			<fragment name="skin" type="DEFAULT">
+				<field name="name" type="string"/>
+				<fragment name="file" type="DEFAULT">
+					<field name="filename" type="filereference"/>
+				</fragment>
+			</fragment>
+		</fragment>
+	</recordtype>
+</sdfmetadataextensions>
+

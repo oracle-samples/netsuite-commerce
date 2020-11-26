@@ -1,0 +1,25 @@
+<list id='customsegment_transactionline_application_id'>
+	<value internal="apply_as_expense_col" feature="ACCOUNTING">EXPENSE</value>
+	<value feature="EXPREPORTS">EXPENSEREPORT</value>
+	<value feature="INVENTORY">INVENTORYADJUSTMENT</value>
+	<value feature="ACCOUNTING">ITEMFULFILLMENT</value>
+	<value feature="ADVRECEIVING">ITEMRECEIPT</value>
+	<value feature="ACCOUNTING">JOURNALENTRY</value>
+	<value internal="apply_as_kititem_col">KITITEM</value>
+	<value feature="OPPORTUNITIES">OPPORTUNITY</value>
+	<value feature="INBOUNDSHIPMENT">OWNERSHIPTRANSFER</value>
+	<value feature="PAYCHECKJOURNAL">PAYCHECKCOMPANYCONTRIBUTION</value>
+	<value feature="PAYCHECKJOURNAL">PAYCHECKCOMPANYTAX</value>
+	<value feature="PAYCHECKJOURNAL">PAYCHECKDEDUCTION</value>
+	<value feature="PAYCHECKJOURNAL">PAYCHECKEARNING</value>
+	<value feature="PAYCHECKJOURNAL">PAYCHECKEMPLOYEETAX</value>
+	<value feature="PERIODENDJOURNALENTRIES">PERIODENDJOURNAL</value>
+	<value internal="apply_as_purchase_col" feature="ACCOUNTING">PURCHASE</value>
+	<value internal="apply_as_revarr_col" feature="ADVANCEDREVENUERECOGNITION">REVENUEARRANGEMENT</value>
+	<value internal="apply_as_sale_col">SALE</value>
+	<value internal="apply_as_store_col" feature="WEBSITE">STORE</value>
+	<value internal="apply_as_storewithgroups_col">STOREWITHGROUPS</value>
+	<value internal="apply_as_time_col" feature="TIMETRACKING">TIME</value>
+	<value feature="MULTILOCINVT">TRANSFERORDER</value>
+	<value feature="WORKORDERS">WORKORDER</value>
+</list>

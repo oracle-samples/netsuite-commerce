@@ -1,0 +1,119 @@
+<list id='snapshot_type_trendgraph'>
+	<value>ACCTUPTIME</value>
+	<value>AGGREGATEDBOOKINGS</value>
+	<value feature="ACCOUNTING">BANKBAL</value>
+	<value>BOOKINGS</value>
+	<value feature="ALTSALESAMOUNT">BOOKINGSALT</value>
+	<value feature="WEBSTORE">CARTABANDON</value>
+	<value feature="WEBSTORE">CHECKOUTABANDON</value>
+	<value feature="SUPPORT">CLOSEDCASES</value>
+	<value feature="ISSUEDB">CLOSEDISSUES</value>
+	<value feature="INVENTORY">COGS</value>
+	<value feature="ACCOUNTING">CREDITCARDBAL</value>
+	<value>CURRENTLOGGEDINUSERS</value>
+	<value feature="CONSOLPAYMENTS">CUSTCONSOLAVGDL</value>
+	<value feature="CONSOLPAYMENTS">CUSTCONSOLUNBLEDORDS</value>
+	<value feature="RECEIVABLES">CUSTOMERAVGDAYSLATE</value>
+	<value feature="RECEIVABLES">CUSTOMERAVGDAYSTOPAY</value>
+	<value feature="RECEIVABLES">CUSTOMERRECEIVABLES</value>
+	<value>CUSTOMERSWON</value>
+	<value>CUSTUNBILLEDORDERS</value>
+	<value feature="ACCOUNTING">DEFERREDREVENUE</value>
+	<value feature="COMMISSIONS">ECOMMISSIONS</value>
+	<value feature="PARTNERCOMMISSIONS">ECOMMISSIONSPARTNER</value>
+	<value>EMPLOYEES</value>
+	<value feature="ACCOUNTING">EQUITY</value>
+	<value feature="SUPPORT">ESCALATEDCASES</value>
+	<value feature="ESTIMATES">ESTIMATES</value>
+	<value feature="ESTIMATES">ESTIMATESRANGE</value>
+	<value>ETECASEEOVERFIVE</value>
+	<value>ETECASEEOVERTWO</value>
+	<value>ETECASEVOVERFIVE</value>
+	<value>ETECASEVOVERTWO</value>
+	<value>ETECUSTEOVERFIVE</value>
+	<value>ETECUSTEOVERTWO</value>
+	<value>ETECUSTVOVERFIVE</value>
+	<value>ETECUSTVOVERTWO</value>
+	<value>ETESOEOVERFIVE</value>
+	<value>ETESOEOVERTWO</value>
+	<value>ETESOVOVERFIVE</value>
+	<value>ETESOVOVERTWO</value>
+	<value feature="ACCOUNTING">EXPENSES</value>
+	<value feature="ACCOUNTING">FIXEDASSET</value>
+	<value feature="SFA">FORECAST</value>
+	<value feature="ALTSALESAMOUNT">FORECASTASA</value>
+	<value feature="SFA">FORECASTOVERRIDE</value>
+	<value feature="ALTSALESAMOUNT">FORECASTOVERRIDEASA</value>
+	<value feature="WEBHOSTING">HOSTEDSITETRAFFIC</value>
+	<value feature="ACCOUNTING">INCOME</value>
+	<value feature="INVENTORY">INVENTORY</value>
+	<value feature="ADVANCEDJOBS">JOBAMOUNTRECOGNIZED</value>
+	<value feature="CHARGEBASEDBILLING">JOBFORECASTCHARGES</value>
+	<value feature="ADVANCEDJOBS">JOBINCURREDCOSTS</value>
+	<value feature="ACCOUNTING">LONGTERMLIAB</value>
+	<value feature="ACCOUNTING">NETCASHFLOW</value>
+	<value>NEWBUSINESS</value>
+	<value>NEWBUSINESSORD</value>
+	<value feature="ALTSALESAMOUNT">NEWBUSINESSORDALT</value>
+	<value feature="SUPPORT">NEWCASES</value>
+	<value>NEWCUSTOMERS</value>
+	<value>NEWCUSTOMERSORD</value>
+	<value feature="ISSUEDB">NEWISSUES</value>
+	<value feature="SFA">NEWLEADS</value>
+	<value feature="SFA">NEWLEADSGROSS</value>
+	<value feature="OPPORTUNITIES">NEWOPPORTUNITIES</value>
+	<value feature="ADVWEBREPORTS">NEWVISITORS</value>
+	<value feature="SUPPORT">OPENCASES</value>
+	<value feature="ISSUEDB">OPENISSUES</value>
+	<value feature="ACCOUNTING">OPERATINGEXPENSES</value>
+	<value feature="ACCOUNTING">OPERCASHFLOW</value>
+	<value feature="OPPORTUNITIES">OPPORTUNITIES</value>
+	<value feature="OPPORTUNITIES">OPPORTUNITIESLOST</value>
+	<value feature="OPPORTUNITIES">OPPORTUNITIESRANGE</value>
+	<value feature="OPPORTUNITIES">OPPORTUNITIESWON</value>
+	<value>ORDERS</value>
+	<value feature="ACCOUNTING">OTHERASSET</value>
+	<value feature="ACCOUNTING">OTHERCURRENTASSET</value>
+	<value feature="ACCOUNTING">OTHERCURRENTLIAB</value>
+	<value>PAGETIMESOVERFIVE</value>
+	<value>PAGETIMESOVERTWO</value>
+	<value feature="PAYABLES">PAYABLES</value>
+	<value feature="PAYROLL">PAYROLL</value>
+	<value feature="COMMISSIONS">PCOMMISSIONS</value>
+	<value feature="PARTNERCOMMISSIONS">PCOMMISSIONSPARTNER</value>
+	<value feature="SFA">PIPELINE</value>
+	<value feature="ALTSALESAMOUNT">PIPELINEASA</value>
+	<value feature="SFA">PIPELINEDEALS</value>
+	<value feature="SFA">PIPELINEWEIGHTED</value>
+	<value feature="ALTSALESAMOUNT">PIPELINEWEIGHTEDASA</value>
+	<value feature="ACCOUNTING">PROFIT</value>
+	<value feature="ADVANCEDJOBS">PROJECTHOURSWORKED</value>
+	<value feature="ADVANCEDJOBS">PROJECTINVOICED</value>
+	<value feature="ADVANCEDPROJECTACCOUNTING">PROJECTPROFITABILITY</value>
+	<value feature="SFA">PROSPECTS</value>
+	<value feature="ACCOUNTING">PURCHASES</value>
+	<value feature="SFA">QUOTA</value>
+	<value feature="ALTSALESAMOUNT">QUOTAASA</value>
+	<value feature="SFA">QUOTAREPS</value>
+	<value feature="RECEIVABLES">RECEIVABLES</value>
+	<value feature="ACCOUNTING">REVENUE</value>
+	<value>RPAGETIMESOVERFIVE</value>
+	<value>RPAGETIMESOVERTWO</value>
+	<value feature="ACCOUNTING">SALES</value>
+	<value feature="ACCOUNTING">SALESCASHBASIS</value>
+	<value feature="WEBSITE">SITETRAFFIC</value>
+	<value>SPAGETIMESOVERFIVE</value>
+	<value>SPAGETIMESOVERTWO</value>
+	<value feature="SALESORDERS">TOTALBOOKINGS</value>
+	<value feature="SALESORDERS">TOTALORDERS</value>
+	<value feature="SFA">TOTALPIPEDEALS</value>
+	<value feature="SFA">TOTALPIPELINE</value>
+	<value feature="ALTSALESAMOUNT">TOTALPIPELINEASA</value>
+	<value feature="SFA">TOTALPIPEWEIGHTED</value>
+	<value feature="ALTSALESAMOUNT">TOTALPIPEWEIGHTEDASA</value>
+	<value>VENDORBALANCE</value>
+	<value feature="PURCHASEORDERS">VENDOROPENPO</value>
+	<value feature="ADVWEBREPORTS">VISITORTRAFFIC</value>
+	<value feature="WEBSITE">WEBORDERS</value>
+	<value feature="WEBSITE">WEBREVENUE</value>
+</list>

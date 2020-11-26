@@ -1,0 +1,4 @@
+<list id='plugintype_deployment_model'>
+	<value internal="PLUGIN_TYPE_DEPLOYMENT_ALLOW_MULTIPLE">ALLOW_MULTIPLE</value>
+	<value internal="PLUGIN_TYPE_DEPLOYMENT_ALLOW_ONLY_ONE">ALLOW_SINGLE</value>
+</list>

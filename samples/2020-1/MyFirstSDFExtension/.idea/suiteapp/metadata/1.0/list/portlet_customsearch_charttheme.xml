@@ -1,0 +1,7 @@
+<list id='portlet_customsearch_charttheme'>
+	<value internal="searchresults_basic">BASIC</value>
+	<value internal="searchresults_colorful">COLORFUL</value>
+	<value internal="searchresults_global_theme">GLOBAL_THEME</value>
+	<value internal="searchresults_match_color_theme_bold">MATCH_COLOR_THEME_BOLD</value>
+	<value internal="searchresults_match_color_theme_light">MATCH_COLOR_THEME_LIGHT</value>
+</list>

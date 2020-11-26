@@ -1,0 +1,7 @@
+<list id='csvimport_columndelimiter'>
+	    <value>COMMA</value>
+	    <value>PIPE</value>
+	    <value>SEMICOLON</value>
+	    <value>SPACE</value>
+	    <value>TAB</value>
+</list>

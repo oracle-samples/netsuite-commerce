@@ -1,0 +1,7 @@
+<list id="portlet_trendgraph_trendtype">
+	<value>DAILY</value>
+	<value>MONTHLY</value>
+	<value>QUARTERLY</value>
+	<value>WEEKLY</value>
+	<value>YEARLY</value>
+</list>

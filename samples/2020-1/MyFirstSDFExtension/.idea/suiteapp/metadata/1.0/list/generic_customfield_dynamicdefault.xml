@@ -1,0 +1,8 @@
+<list id='generic_customfield_dynamicdefault'>
+    <value>NOW</value><!-- Current Date/Time -->
+    <value>ME</value><!-- Current User -->
+    <value>SUPERVISOR</value><!-- Current User's Supervisor -->
+    <value>DEPARTMENT</value><!-- Current User's Department -->
+    <value>LOCATION</value><!-- Current User's Location -->
+    <value>SUBSIDIARY</value><!-- Current User's Subsidiary -->
+</list>

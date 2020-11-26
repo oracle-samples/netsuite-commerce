@@ -1,0 +1,19 @@
+<list id='generic_itemoptionitemcol_fieldtype'>
+    <value>TEXT</value>
+    <value>EMAIL</value>
+    <value>PHONE</value>
+    <value>DATE</value>
+    <value>CURRENCY</value>
+    <value>FLOAT</value>
+    <value>INTEGER</value>
+    <value>CHECKBOX</value>
+    <value>SELECT</value>
+    <value>URL</value>
+    <value>TIMEOFDAY</value>
+    <value>TEXTAREA</value>
+    <value>DOCUMENT</value>
+    <value>PASSWORD</value>
+    <value>PERCENT</value>
+    <value>INLINEHTML</value>
+    <value>DATETIMETZ</value>
+</list>

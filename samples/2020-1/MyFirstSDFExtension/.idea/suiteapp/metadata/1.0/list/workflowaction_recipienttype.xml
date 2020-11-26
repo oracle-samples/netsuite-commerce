@@ -1,0 +1,6 @@
+<list id='workflowaction_recipienttype'>
+    <value>CURRENTRECORD</value>
+    <value>SPECIFIC</value>
+    <value>ADDRESS</value>
+    <value>FIELD</value>
+</list>

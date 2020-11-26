@@ -1,0 +1,17 @@
+<list id='generic_itemoptionitemcol_searchcomparefield'>
+    <value>STDCOLACCOUNT</value>
+    <value>STDCOLCALL</value>
+    <value>STDCOLCASE</value>
+    <value>STDCOLCHARGE</value>
+    <value>STDCOLCLASS</value>
+    <value>STDCOLCUSTOMER</value>
+    <value>STDCOLDEPARTMENT</value>
+    <value>STDCOLEMPLOYEE</value>
+    <value>STDCOLENTITY</value>
+    <value>STDCOLEVENT</value>
+    <value>STDCOLITEM</value>
+    <value>STDCOLJOB</value>
+    <value>STDCOLLOCATION</value>
+    <value>STDCOLSUBSIDIARY</value>
+    <value>STDCOLTASK</value>
+</list>

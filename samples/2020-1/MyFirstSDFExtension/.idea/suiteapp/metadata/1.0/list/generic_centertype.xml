@@ -1,0 +1,23 @@
+<list id="generic_centertype">
+	<value>ACCOUNTCENTER</value>
+	<value>ALL</value>
+	<value>BASIC</value>
+	<value>CUSTOMER</value>
+	<value>EMPLOYEE</value>
+	<value>ENGINEERCENTER</value>
+	<value>EXECUTIVE</value>
+	<value>HR</value>
+	<value>MARKETCENTER</value>
+	<value>OFFLINESALESCENTER</value>
+	<value>PARTNER</value>
+	<value>PARTNERCENTER</value>
+	<value>PROJECTCENTER</value>
+	<value>SALESCENTER</value>
+	<value>SHIPPINGCENTER</value>
+	<value>STOREMANAGER</value>
+	<value>SUITEAPPCONTROLCENTER</value>
+	<value>SUPPORTCENTER</value>
+	<value>SYSADMINCENTER</value>
+	<value>VENDOR</value>
+	<value>WEBSITE</value>
+</list>

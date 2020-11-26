@@ -1,0 +1,38 @@
+{
+    "name": "ExampleExtensionForSDF",
+    "fantasyName": "ExampleExtensionForSDF",
+    "vendor": "Tutorial",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCS,SCA",
+    "target_version": {
+        "SCS": ">=19.2.0",
+        "SCA": ">=19.2.0"
+    },
+    "description": "An example extension created for demonstrating SDF",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": []
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/Example/JavaScript/Example.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/Example/JavaScript/Example.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace/ExampleExtensionForSDF"
+}

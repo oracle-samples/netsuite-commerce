@@ -1,0 +1,10 @@
+<list id='script_recurrenceminutes'>
+    <value>15</value>
+    <value>30</value>
+    <value>60</value>
+    <value>120</value>
+    <value>240</value>
+    <value>360</value>
+    <value>480</value>
+    <value>720</value>
+</list>

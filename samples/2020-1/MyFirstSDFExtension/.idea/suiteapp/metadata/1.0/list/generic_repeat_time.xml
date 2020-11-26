@@ -1,0 +1,10 @@
+<list id="generic_repeat_time">
+	<value internal="15">PT15M</value>
+	<value internal="30">PT30M</value>
+	<value internal="60">PT1H</value>
+	<value internal="120">PT2H</value>
+	<value internal="240">PT4H</value>
+	<value internal="360">PT6H</value>
+	<value internal="480">PT8H</value>
+	<value internal="720">PT12H</value>
+</list>

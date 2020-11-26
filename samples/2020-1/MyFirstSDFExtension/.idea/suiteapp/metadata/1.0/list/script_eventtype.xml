@@ -1,0 +1,27 @@
+<list id='script_eventtype'>
+    <value>COPY</value> <!--Copy !-->
+    <value>CREATE</value> <!--Create!-->
+    <value>VIEW</value> <!--View!-->
+    <value>EDIT</value> <!--Edit!-->
+    <value>XEDIT</value> <!--Direct List Edit!-->
+    <value>DELETE</value> <!--Delete!-->
+    <value>DROPSHIP</value> <!--Drop Ship!-->
+    <value>SPECIALORDER</value> <!--Special Order!-->
+    <value>ORDERITEMS</value> <!--Order Items!-->
+    <value>CANCEL</value> <!--Cancel!-->
+    <value>APPROVE</value> <!--Approve!-->
+    <value>REJECT</value> <!--Reject!-->
+    <value>PACK</value> <!--Pack!-->
+    <value>SHIP</value> <!--Ship!-->
+    <value>EDITFORECAST</value> <!--Edit Forecast!-->
+    <value>REASSIGN</value> <!--Reassign!-->
+    <value>MARKCOMPLETE</value> <!--Mark Complete!-->
+    <value>PRINT</value> <!--Print!-->
+    <value>EMAIL</value> <!--Email!-->
+    <value>CHANGEPASSWORD</value> <!--Change Password!-->
+    <value>GET</value> <!--GET Request!-->
+    <value>POST</value> <!--POST Request!-->
+    <value>TRANSFORM</value> <!--Tranform!-->
+    <value>PAYBILLS</value> <!--Pay Bills!-->
+    <value>QUICKVIEW</value> <!--QuickView!-->
+</list>

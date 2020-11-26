@@ -1,0 +1,23 @@
+<list id='script_scripttype'>
+    <value>ACTION</value>
+    <value>APPPKGINSTALL</value>
+    <value>BUNDLEINSTALLATION</value>
+    <value>CLIENT</value>
+    <value>CONSOLRATEADJUSTOR</value>
+    <value>CUSTOMGLLINES</value>
+    <value>EMAILCAPTURE</value>
+    <value>MASSUPDATE</value>
+    <value>PAYMENTGATEWAY</value>
+    <value>PLUGINTYPE</value>
+    <value>PLUGINTYPEIMPL</value>
+    <value>PORTLET</value>
+    <value>PROMOTIONS</value>
+    <value>RESTLET</value>
+    <value>SCHEDULED</value>
+    <value>SCRIPTLET</value>
+    <value>SHIPPINGPARTNERS</value>
+    <value>TAXCALCULATION</value>
+    <value>TESTPLUGIN</value>
+    <value>USEREVENT</value>
+    <value>WEBAPP</value>
+</list>

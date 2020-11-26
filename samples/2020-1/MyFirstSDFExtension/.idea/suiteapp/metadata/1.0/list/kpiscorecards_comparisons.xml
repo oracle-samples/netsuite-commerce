@@ -1,0 +1,7 @@
+<list id='kpiscorecards_comparisons'>
+	<value internal="VARIANCEPERCENT">VARIANCE_PERCENT</value>
+	<value internal="VARIANCEABSOLUTE">VARIANCE_ABSOLUTE</value>
+	<value internal="RATIOPERCENT">RATIO_PERCENT</value>
+	<value internal="RATIOABSOLUTE">RATIO_ABSOLUTE</value>
+	<value internal="SUM">SUM</value>
+</list>

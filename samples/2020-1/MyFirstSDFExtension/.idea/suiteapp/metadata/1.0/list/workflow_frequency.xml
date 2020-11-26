@@ -1,0 +1,7 @@
+<list id='workflow_frequency'>
+    <value>MOST_FREQUENT</value> <!-- Every 30 minutes-->
+    <value>DAY</value>
+    <value>WEEK</value>
+    <value>MONTH</value>
+    <value>YEAR</value>
+</list>

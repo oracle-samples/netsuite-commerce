@@ -1,0 +1,7 @@
+<list id="generic_order_of_week">
+	<value internal="1">FIRST</value>
+	<value internal="2">SECOND</value>
+	<value internal="3">THIRD</value>
+	<value internal="4">FOURTH</value>
+	<value internal="-1">LAST</value>
+</list>

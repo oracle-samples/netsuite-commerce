@@ -1,0 +1,23 @@
+<list id="generic_entity_tab">
+	<value>ENTITYACCESS</value>
+	<value>ENTITYACCOUNTING</value>
+	<value>ENTITYBUDGET</value>
+	<value>ENTITYCOMMUNICATION</value>
+	<value>ENTITYCOMPENSATIONTRACKING</value>
+	<value>ENTITYFINANCIAL</value>
+	<value>ENTITYGENERAL</value>
+	<value>ENTITYHUMANRESOURCES</value>
+	<value>ENTITYINFO</value>
+	<value>ENTITYMAIN</value>
+	<value>ENTITYMARKETING</value>
+	<value>ENTITYPL</value>
+	<value>ENTITYPREFERENCES</value>
+	<value>ENTITYQUALIFICATION</value>
+	<value>ENTITYRELATEDRECORDS</value>
+	<value>ENTITYRELATIONSHIPS</value>
+	<value>ENTITYSALES</value>
+	<value>ENTITYSUBSCRIPTIONS</value>
+	<value>ENTITYSUPPORT</value>
+	<value>ENTITYTIMEOFF</value>
+	<value>ENTITYTIMETRACKING</value>
+</list>

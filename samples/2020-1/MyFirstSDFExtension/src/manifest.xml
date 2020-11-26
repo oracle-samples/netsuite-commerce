@@ -1,0 +1,12 @@
+<manifest projecttype="ACCOUNTCUSTOMIZATION">
+  <projectname>MyFirstSDFExtension</projectname>
+  <frameworkversion>1.0</frameworkversion>
+  <dependencies>
+    <features>
+      <feature required="false">SUITESIGNON</feature>
+      <feature required="false">CRM</feature>
+      <feature required="false">ACCOUNTING</feature>
+      <feature required="false">WEBSITE</feature>
+    </features>
+  </dependencies>
+</manifest>

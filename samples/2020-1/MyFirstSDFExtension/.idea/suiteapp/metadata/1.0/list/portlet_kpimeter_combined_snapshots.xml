@@ -1,0 +1,6 @@
+<list id='portlet_kpimeter_combined_snapshots'>
+	<value>ACTUAL_VS_FORECAST</value>
+	<value>ACTUAL_VS_QUOTA</value>
+	<value>FORECAST_VS_QUOTA</value>
+	<value>FORECAST_VS_QUOTA_ASA</value>
+</list>

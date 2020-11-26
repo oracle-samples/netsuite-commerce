@@ -1,0 +1,11 @@
+<list id='script_frequency'>
+    <value>NONE</value>
+    <value>DAY</value>
+    <value>WEEK</value>
+    <value>MONTH</value>
+    <value>YEAR</value>
+    <value>WEEKEND</value>
+    <value>WEEKDAY</value>
+    <value>TTH</value>
+    <value>MWF</value>
+</list>

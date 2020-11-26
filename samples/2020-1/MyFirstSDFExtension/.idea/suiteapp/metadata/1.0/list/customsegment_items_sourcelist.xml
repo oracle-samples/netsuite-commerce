@@ -1,0 +1,31 @@
+<list id='customsegment_items_sourcelist'>
+	<value feature="ACCOUNTING" internal="-1177">STDITEMACCOUNT</value>
+	<value feature="ACCOUNTING" internal="-1080">STDITEMASSETACCOUNT</value>
+	<value feature="ACCOUNTING" internal="-1104">STDITEMBILLEXCHRATEVARIANCEACCT</value>
+	<value feature="ACCOUNTING" internal="-1106">STDITEMBILLPRICEVARIANCEACCT</value>
+	<value feature="ACCOUNTING" internal="-1107">STDITEMBILLQTYVARIANCEACCT</value>
+	<value feature="CLASSES" internal="-1074">STDITEMCLASS</value>
+	<value feature="INVENTORY" internal="-1109">STDITEMCOGSACCOUNT</value>
+	<value feature="RECEIVABLES" internal="-1228">STDITEMCUSTRETURNVARIANCEACCOUNT</value>
+	<value internal="-1310">STDITEMDEFAULTRENEWALPLAN</value>
+	<value feature="AMORTIZATION" internal="-1194">STDITEMDEFERRALACCOUNT</value>
+	<value feature="REVENUERECOGNITION" internal="-1114">STDITEMDEFERREDREVENUEACCOUNT</value>
+	<value feature="DEPARTMENTS" internal="-1073">STDITEMDEPARTMENT</value>
+	<value feature="ACCOUNTING" internal="-1265">STDITEMDROPSHIPEXPENSEACCOUNT</value>
+	<value feature="ACCOUNTING" internal="-1081">STDITEMEXPENSEACCOUNT</value>
+	<value feature="ACCOUNTING" internal="-1311">STDITEMGAINLOSSACCOUNT</value>
+	<value feature="ACCOUNTING" internal="-1082">STDITEMINCOMEACCOUNT</value>
+	<value feature="ISSUEDB" internal="-1125">STDITEMISSUEPRODUCT</value>
+	<value feature="ADVANCEDREVENUERECOGNITION" internal="-1281">STDITEMITEMREVENUECATEGORY</value>
+	<value feature="ACCOUNTING" internal="-1185">STDITEMLIABILITYACCOUNT</value>
+	<value feature="LOCATIONS" internal="-1072">STDITEMLOCATION</value>
+	<value internal="-1139">STDITEMPARENT</value>
+	<value feature="LOCATIONS" internal="-1069">STDITEMPREFERREDLOCATION</value>
+	<value feature="ADVANCEDJOBS" internal="-1309">STDITEMPROJECTTEMPLATE</value>
+	<value feature="ADVANCEDREVENUERECOGNITION" internal="-1283">STDITEMREVENUERECOGNITIONRULE</value>
+	<value feature="ACCOUNTING" internal="-1220">STDITEMTAXACCOUNT</value>
+	<value feature="ACCOUNTING" internal="-1221">STDITEMTAXAGENCY</value>
+	<value feature="ASSEMBLIES" internal="-1216">STDITEMUNBUILDVARIANCEACCOUNT</value>
+	<value feature="ACCOUNTING" internal="-1090">STDITEMVENDOR</value>
+	<value feature="PAYABLES" internal="-1226">STDITEMVENDRETURNVARIANCEACCOUNT</value>
+</list>

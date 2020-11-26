@@ -1,0 +1,190 @@
+<list id='portlet_list_type'>
+	<value internal="AccountingBook" feature="MULTIBOOK">ACCOUNTINGBOOK</value>
+	<value internal="AccountingContext" feature="ACCOUNTING">ACCOUNTINGCONTEXT</value>
+	<value internal="AccountingRule" feature="INTERCOMPANYFRAMEWORK">ACCOUNTINGRULE</value>
+	<value internal="AccountingTransaction" feature="MULTIBOOK">ACCOUNTINGTRANSACTION</value>
+	<value internal="Activity">ACTIVITY</value>
+	<value internal="Alloc">ALLOC</value>
+	<value internal="AmortizationSchedule" feature="AMORTIZATION">AMORTIZATIONSCHEDULE</value>
+	<value internal="AmortizationTemplate" feature="AMORTIZATION">AMORTIZATIONTEMPLATE</value>
+	<value internal="AsChargedProjectRevenueRule" feature="CHARGEBASEDBILLINGANDADVREVREC">ASCHARGEDPROJECTREVENUERULE</value>
+	<value internal="BalancingRun" feature="BALANCING_SEGMENTS">BALANCINGRUN</value>
+	<value internal="BankImportHistory">BANKIMPORTHISTORY</value>
+	<value internal="BillOfDistribution" feature="DISTRIBUTIONRESOURCEPLANNING">BILLOFDISTRIBUTION</value>
+	<value internal="BillRun" feature="BILLINGWORKCENTER">BILLRUN</value>
+	<value internal="BillRunSchedule" feature="BILLINGWORKCENTER">BILLRUNSCHEDULE</value>
+	<value internal="BillingAccount" feature="BILLINGACCOUNTS">BILLINGACCOUNT</value>
+	<value internal="BillingAccountBillCycle" feature="BILLINGACCOUNTS">BILLINGACCOUNTBILLCYCLE</value>
+	<value internal="BillingAccountBillRequest" feature="BILLINGACCOUNTS">BILLINGACCOUNTBILLREQUEST</value>
+	<value internal="BillingRateCard" feature="BILLINGRATECARDS">BILLINGRATECARD</value>
+	<value internal="BillingRevenueEvent" feature="ADVANCEDREVENUERECOGNITION">BILLINGREVENUEEVENT</value>
+	<value internal="BinNumber" feature="BINMANAGEMENT">BINNUMBER</value>
+	<value internal="Bom" feature="ADVANCEDBILLOFMATERIALS">BOM</value>
+	<value internal="Budget">BUDGET</value>
+	<value internal="BudgetExchangeRate" feature="SUBSANDMULTICURRANDMULTBUDGETS">BUDGETEXCHANGERATE</value>
+	<value internal="BulkProcErrors">BULKPROCERRORS</value>
+	<value internal="BusinessEventHistory" feature="ASYNCBIZEVENTSPROCESSING">BUSINESSEVENTHISTORY</value>
+	<value internal="CCTran">CCTRAN</value>
+	<value internal="Calendar">CALENDAR</value>
+	<value internal="Call">CALL</value>
+	<value internal="Campaign" feature="MARKETING">CAMPAIGN</value>
+	<value internal="Case" feature="SUPPORT">CASE</value>
+	<value internal="Charge" feature="CHARGEBASEDBILLING">CHARGE</value>
+	<value internal="ChargeRule" feature="CHARGEBASEDBILLING">CHARGERULE</value>
+	<value internal="ChargeRun" feature="CHARGEBASEDBILLING">CHARGERUN</value>
+	<value internal="Class">CLASS</value>
+	<value internal="ClassSegmentMapping" feature="MULTIBOOKCLASS">CLASSSEGMENTMAPPING</value>
+	<value internal="ComSearchBoost" feature="COMMERCESEARCHBOOSTING">COMSEARCHBOOST</value>
+	<value internal="ComSearchBoostType" feature="COMMERCESEARCHBOOSTING">COMSEARCHBOOSTTYPE</value>
+	<value internal="ComSearchGroupSyn" feature="COMMERCESEARCHSYNONYMS">COMSEARCHGROUPSYN</value>
+	<value internal="ComSearchOneWaySyn" feature="COMMERCESEARCHSYNONYMS">COMSEARCHONEWAYSYN</value>
+	<value internal="CommitOrderSchedule">COMMITORDERSCHEDULE</value>
+	<value internal="Competitor" feature="SFA">COMPETITOR</value>
+	<value internal="ConsolExchangeRate" feature="SUBSIDIARIESANDMULTICURRENCY">CONSOLEXCHANGERATE</value>
+	<value internal="Contact">CONTACT</value>
+	<value internal="CrossCharge" feature="INTERCOMPANYFRAMEWORK">CROSSCHARGE</value>
+	<value internal="Customer">CUSTOMER</value>
+	<value internal="Department">DEPARTMENT</value>
+	<value internal="DeptSegmentMapping" feature="MULTIBOOKDEPT">DEPTSEGMENTMAPPING</value>
+	<value internal="DistributionNetwork" feature="DISTRIBUTIONRESOURCEPLANNING">DISTRIBUTIONNETWORK</value>
+	<value internal="Document">DOCUMENT</value>
+	<value internal="DriversLicense" feature="ADVANCEDGVMNTISSUEDIDTRACKING">DRIVERSLICENSE</value>
+	<value internal="Employee">EMPLOYEE</value>
+	<value internal="EmployeeChange" feature="EFFECTIVEDATING">EMPLOYEECHANGE</value>
+	<value internal="EmployeeChangeReason" feature="EFFECTIVEDATING">EMPLOYEECHANGEREASON</value>
+	<value internal="EmployeeChangeRequest" feature="EMPLOYEECHANGEREQUESTS">EMPLOYEECHANGEREQUEST</value>
+	<value internal="EmployeeChangeType" feature="EMPLOYEECHANGEREQUESTS">EMPLOYEECHANGETYPE</value>
+	<value internal="EntityAccountMapping" feature="COACLASSIFICATIONMANAGEMENT">ENTITYACCOUNTMAPPING</value>
+	<value internal="EntityMseSubsidiary" feature="SUBSIDIARIES">ENTITYMSESUBSIDIARY</value>
+	<value internal="ExpenseAmortizationEvent" feature="ADVANCEDEXPENSEMANAGEMENT">EXPENSEAMORTIZATIONEVENT</value>
+	<value internal="ExpenseAmortizationRule" feature="ADVANCEDEXPENSEMANAGEMENT">EXPENSEAMORTIZATIONRULE</value>
+	<value internal="ExpensePlan" feature="ADVANCEDEXPENSEMANAGEMENT">EXPENSEPLAN</value>
+	<value internal="FairValueFormula" feature="ADVANCEDREVENUERECOGNITION">FAIRVALUEFORMULA</value>
+	<value internal="FairValuePrice" feature="ADVANCEDREVENUERECOGNITION">FAIRVALUEPRICE</value>
+	<value internal="FinancialInstitution" feature="FINANCIALINSTITUTIONPROFILE">FINANCIALINSTITUTION</value>
+	<value internal="FixedAmountProjectRevenueRule" feature="CHARGEBASEDBILLINGANDADVREVREC">FIXEDAMOUNTPROJECTREVENUERULE</value>
+	<value internal="Forecast">FORECAST</value>
+	<value internal="FulfillmentExceptionReason" feature="FULFILLMENTREQUEST">FULFILLMENTEXCEPTIONREASON</value>
+	<value internal="GatewayNotification" feature="CCTRACKING">GATEWAYNOTIFICATION</value>
+	<value internal="GenericResource" feature="ADVANCEDJOBS">GENERICRESOURCE</value>
+	<value internal="GiftCertificate" feature="GIFTCERTIFICATES">GIFTCERTIFICATE</value>
+	<value internal="GlobalAccountMapping" feature="COACLASSIFICATIONMANAGEMENT">GLOBALACCOUNTMAPPING</value>
+	<value internal="Goal" feature="TALENTMANAGEMENT">GOAL</value>
+	<value internal="GovernmentIssuedIdType">GOVERNMENTISSUEDIDTYPE</value>
+	<value internal="GroupingRule" feature="INTERCOMPANYFRAMEWORK">GROUPINGRULE</value>
+	<value internal="HCMJob" feature="JOBMANAGEMENT">HCMJOB</value>
+	<value internal="InboundShipment" feature="INBOUNDSHIPMENT">INBOUNDSHIPMENT</value>
+	<value internal="InfoItem">INFOITEM</value>
+	<value internal="InvCostTemplate" feature="STANDARDCOSTING">INVCOSTTEMPLATE</value>
+	<value internal="InventoryStatus" feature="INVENTORYSTATUS">INVENTORYSTATUS</value>
+	<value internal="Issue" feature="ISSUEDB">ISSUE</value>
+	<value internal="Item">ITEM</value>
+	<value internal="ItemAccountMapping" feature="COACLASSIFICATIONMANAGEMENT">ITEMACCOUNTMAPPING</value>
+	<value internal="ItemDemandPlan" feature="ITEMDEMANDPLANNING">ITEMDEMANDPLAN</value>
+	<value internal="ItemProcessFamily" feature="WMSSYSTEM">ITEMPROCESSFAMILY</value>
+	<value internal="ItemProcessGroup" feature="WMSSYSTEM">ITEMPROCESSGROUP</value>
+	<value internal="ItemRevenueCategory" feature="ADVANCEDREVENUERECOGNITION">ITEMREVENUECATEGORY</value>
+	<value internal="ItemSupplyPlan" feature="ITEMDEMANDPLANNING">ITEMSUPPLYPLAN</value>
+	<value internal="Job">JOB</value>
+	<value internal="JobRequisition" feature="JOBREQUISITION">JOBREQUISITION</value>
+	<value internal="Kudos" feature="KUDOS">KUDOS</value>
+	<value internal="LaborBasedProjectRevenueRule" feature="CHARGEBASEDBILLINGANDADVREVREC">LABORBASEDPROJECTREVENUERULE</value>
+	<value internal="LocAssignConf" feature="AUTOLOCATIONASSIGNMENT">LOCASSIGNCONF</value>
+	<value internal="LocSegmentMapping" feature="MULTIBOOKLOC">LOCSEGMENTMAPPING</value>
+	<value internal="Location">LOCATION</value>
+	<value internal="LocationCostingGroup" feature="GROUPAVERAGECOSTING">LOCATIONCOSTINGGROUP</value>
+	<value internal="MemDoc">MEMDOC</value>
+	<value internal="MemdocResults">MEMDOCRESULTS</value>
+	<value internal="MerchandiseHierarchyLevel" feature="MERCHANDISEHIERARCHY">MERCHANDISEHIERARCHYLEVEL</value>
+	<value internal="MerchandiseHierarchyNode" feature="MERCHANDISEHIERARCHY">MERCHANDISEHIERARCHYNODE</value>
+	<value internal="MerchandiseHierarchyVersion" feature="MERCHANDISEHIERARCHY">MERCHANDISEHIERARCHYVERSION</value>
+	<value internal="MfgCostTemplate" feature="MFGROUTING">MFGCOSTTEMPLATE</value>
+	<value internal="MfgOperationTask" feature="MFGROUTING">MFGOPERATIONTASK</value>
+	<value internal="MfgRouting" feature="MFGROUTING">MFGROUTING</value>
+	<value internal="MseSubsidiary" feature="SUBSIDIARIES">MSESUBSIDIARY</value>
+	<value internal="NewsItem" feature="EMPLOYEECENTERPUBLISHING">NEWSITEM</value>
+	<value internal="Nexus">NEXUS</value>
+	<value internal="Notification" feature="NEWEMAILALERT">NOTIFICATION</value>
+	<value internal="OAuthToken" feature="TBA">OAUTHTOKEN</value>
+	<value internal="OnlineCaseForm" feature="EXTCRM">ONLINECASEFORM</value>
+	<value internal="OnlineLeadForm" feature="EXTCRM">ONLINELEADFORM</value>
+	<value internal="Opprtnty" feature="OPPORTUNITIES">OPPRTNTY</value>
+	<value internal="OrganizationValue" feature="KUDOS">ORGANIZATIONVALUE</value>
+	<value internal="OriginatingLead">ORIGINATINGLEAD</value>
+	<value internal="OtherGovernmentIssuedId" feature="ADVANCEDGVMNTISSUEDIDTRACKING">OTHERGOVERNMENTISSUEDID</value>
+	<value internal="OutboundRequest">OUTBOUNDREQUEST</value>
+	<value internal="Partner" feature="PRM">PARTNER</value>
+	<value internal="Passport" feature="ADVANCEDGVMNTISSUEDIDTRACKING">PASSPORT</value>
+	<value internal="PaymentEvent" feature="CCTRACKING">PAYMENTEVENT</value>
+	<value internal="PaymentProcessingProfile" feature="CCTRACKING">PAYMENTPROCESSINGPROFILE</value>
+	<value internal="PayrollBatch">PAYROLLBATCH</value>
+	<value internal="PayrollBatch2">PAYROLLBATCH2</value>
+	<value internal="PctCompleteProjectRevenueRule" feature="CHARGEBASEDBILLINGANDADVREVREC">PCTCOMPLETEPROJECTREVENUERULE</value>
+	<value internal="PerformanceReview" feature="TALENTMANAGEMENT">PERFORMANCEREVIEW</value>
+	<value internal="PerformanceReviewSchedule" feature="TALENTMANAGEMENT">PERFORMANCEREVIEWSCHEDULE</value>
+	<value internal="PickStrategy" feature="WMSSYSTEM">PICKSTRATEGY</value>
+	<value internal="PickTask" feature="WMSSYSTEM">PICKTASK</value>
+	<value internal="PlannedRevenue" feature="ADVANCEDREVENUERECOGNITION">PLANNEDREVENUE</value>
+	<value internal="PlannedStandardCost" feature="STANDARDCOSTING">PLANNEDSTANDARDCOST</value>
+	<value internal="Position" feature="POSITIONMANAGEMENT">POSITION</value>
+	<value internal="ProjectExpenseType" feature="JOBCOSTING">PROJECTEXPENSETYPE</value>
+	<value internal="ProjectRevenueRule" feature="CHARGEBASEDBILLINGANDADVREVREC">PROJECTREVENUERULE</value>
+	<value internal="ProjectRevenueRuleList" feature="CHARGEBASEDBILLINGANDADVREVREC">PROJECTREVENUERULELIST</value>
+	<value internal="ProjectTask" feature="ADVANCEDJOBS">PROJECTTASK</value>
+	<value internal="ProjectTaskAndCrmTask" feature="ADVANCEDJOBS">PROJECTTASKANDCRMTASK</value>
+	<value internal="ProjectTemplate" feature="ADVANCEDJOBS">PROJECTTEMPLATE</value>
+	<value internal="Promotion" feature="PROMOCODES">PROMOTION</value>
+	<value internal="Quota">QUOTA</value>
+	<value internal="Region" feature="AUTOLOCATIONASSIGNMENT">REGION</value>
+	<value internal="Report">REPORT</value>
+	<value internal="ReportResults">REPORTRESULTS</value>
+	<value internal="ReportSchedule">REPORTSCHEDULE</value>
+	<value internal="ResAllocationTimeOffConflict" feature="RESALLOCATIONSANDTIMEOFFMNGMNT">RESALLOCATIONTIMEOFFCONFLICT</value>
+	<value internal="ResourceGroup">RESOURCEGROUP</value>
+	<value internal="RevRec" feature="REVENUERECOGNITION">REVREC</value>
+	<value internal="RevRecRule" feature="ADVANCEDREVENUERECOGNITION">REVRECRULE</value>
+	<value internal="RevRecSchedule" feature="REVENUERECOGNITION">REVRECSCHEDULE</value>
+	<value internal="RevRecTemplate" feature="REVENUERECOGNITION">REVRECTEMPLATE</value>
+	<value internal="RevRecognitionSched" feature="REVENUERECOGNITION">REVRECOGNITIONSCHED</value>
+	<value internal="RevenueElement" feature="ADVANCEDREVENUERECOGNITION">REVENUEELEMENT</value>
+	<value internal="RevenuePlan" feature="ADVANCEDREVENUERECOGNITION">REVENUEPLAN</value>
+	<value internal="RsrcAllocation" feature="RESOURCEALLOCATIONS">RSRCALLOCATION</value>
+	<value internal="SalesCampaign" feature="SALESCAMPAIGNS">SALESCAMPAIGN</value>
+	<value internal="SalesTerritory" feature="SFA">SALESTERRITORY</value>
+	<value internal="ScriptNote" feature="CUSTOMCODEORSUITEBUNDLER">SCRIPTNOTE</value>
+	<value internal="Solution" feature="KNOWLEDGEBASE">SOLUTION</value>
+	<value internal="StandardCostVersion" feature="STANDARDCOSTING">STANDARDCOSTVERSION</value>
+	<value internal="Subscription" feature="SUBSCRIPTIONBILLING">SUBSCRIPTION</value>
+	<value internal="SubscriptionChangeOrder" feature="SUBSCRIPTIONBILLING">SUBSCRIPTIONCHANGEORDER</value>
+	<value internal="SubscriptionLine" feature="SUBSCRIPTIONBILLING">SUBSCRIPTIONLINE</value>
+	<value internal="Subsidiary" feature="SUBSIDIARIES">SUBSIDIARY</value>
+	<value internal="SubsidiaryGroup" feature="INTERCOMPANYFRAMEWORK">SUBSIDIARYGROUP</value>
+	<value internal="SupplyChainSnapshot" feature="SUPPLYCHAINCONTROLTOWER">SUPPLYCHAINSNAPSHOT</value>
+	<value internal="SupportTerritory" feature="SUPPORT">SUPPORTTERRITORY</value>
+	<value internal="Task">TASK</value>
+	<value internal="TaxType">TAXTYPE</value>
+	<value internal="TerminationReason">TERMINATIONREASON</value>
+	<value internal="Time" feature="TIMETRACKINGANY">TIME</value>
+	<value internal="TimeApproval" feature="TIMETRACKINGANY">TIMEAPPROVAL</value>
+	<value internal="TimeOffChange" feature="TIMEOFFMANAGEMENT">TIMEOFFCHANGE</value>
+	<value internal="TimeOffPlan" feature="TIMEOFFMANAGEMENT">TIMEOFFPLAN</value>
+	<value internal="TimeOffRequest" feature="TIMEOFFMANAGEMENT">TIMEOFFREQUEST</value>
+	<value internal="TimeOffType" feature="TIMEOFFMANAGEMENT">TIMEOFFTYPE</value>
+	<value internal="Timesheet" feature="TIMESHEETRECORDANY">TIMESHEET</value>
+	<value internal="TradeAgreement" feature="INTERCOMPANYFRAMEWORK">TRADEAGREEMENT</value>
+	<value internal="TradeRelationship" feature="INTERCOMPANYFRAMEWORK">TRADERELATIONSHIP</value>
+	<value internal="Transaction">TRANSACTION</value>
+	<value internal="TransferPriceAgreement" feature="INTERCOMPANYFRAMEWORK">TRANSFERPRICEAGREEMENT</value>
+	<value internal="UndeliveredEmail">UNDELIVEREDEMAIL</value>
+	<value internal="Usage" feature="ADVSUBSCRIPTIONBILLING">USAGE</value>
+	<value internal="UserOAuthToken" feature="TBA">USEROAUTHTOKEN</value>
+	<value internal="Vendor" feature="ACCOUNTING">VENDOR</value>
+	<value internal="Wave" feature="WMSSYSTEM">WAVE</value>
+	<value internal="Workplace">WORKPLACE</value>
+	<value internal="cmscontent" feature="ADVANCEDSITEMANAGEMENT">CMSCONTENT</value>
+	<value internal="cmspage" feature="ADVANCEDSITEMANAGEMENT">CMSPAGE</value>
+	<value internal="cmspagetype" feature="ADVANCEDSITEMANAGEMENT">CMSPAGETYPE</value>
+	<value internal="commercecatalog" feature="COMMERCECATEGORIES">COMMERCECATALOG</value>
+	<value internal="StudentRecord" feature="TBA">STUDENTRECORD</value>
+	<value internal="Zone" feature="WMSSYSTEM">ZONE</value>
+</list>

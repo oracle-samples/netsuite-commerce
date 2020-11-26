@@ -1,0 +1,4 @@
+<list id='customrecordtype_permission_restriction'>
+    <value>1</value><!-- Viewing and Editing -->
+    <value>3</value><!-- Editing Only -->
+</list>

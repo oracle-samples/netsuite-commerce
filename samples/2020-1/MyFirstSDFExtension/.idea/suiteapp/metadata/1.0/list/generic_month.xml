@@ -1,0 +1,14 @@
+<list id="generic_month">
+	<value internal="1">JANUARY</value>
+	<value internal="2">FEBRUARY</value>
+	<value internal="3">MARCH</value>
+	<value internal="4">APRIL</value>
+	<value internal="5">MAY</value>
+	<value internal="6">JUNE</value>
+	<value internal="7">JULY</value>
+	<value internal="8">AUGUST</value>
+	<value internal="9">SEPTEMBER</value>
+	<value internal="10">OCTOBER</value>
+	<value internal="11">NOVEMBER</value>
+	<value internal="12">DECEMBER</value>
+</list>

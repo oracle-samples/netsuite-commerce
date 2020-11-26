@@ -1,0 +1,83 @@
+<list id="kpi_snapshots_daterange">
+	<value>ACCTUPTIME</value>
+	<value>AGGREGATEDBOOKINGS</value>
+	<value>BOOKINGS</value>
+	<value feature="ALTSALESAMOUNT">BOOKINGSALT</value>
+	<value feature="WEBSTORE">CARTABANDON</value>
+	<value feature="WEBSTORE">CHECKOUTABANDON</value>
+	<value feature="SUPPORT">CLOSEDCASES</value>
+	<value feature="ISSUEDB">CLOSEDISSUES</value>
+	<value feature="COMMISSIONS">COMMISSIONS</value>
+	<value feature="PARTNERCOMMISSIONS">COMMISSIONSPARTNER</value>
+	<value>CURRENTLOGGEDINUSERS</value>
+	<value>CUSTOMERSWON</value>
+	<value feature="COMMISSIONS">ECOMMISSIONS</value>
+	<value feature="PARTNERCOMMISSIONS">ECOMMISSIONSPARTNER</value>
+	<value>EMPLOYEES</value>
+	<value feature="SUPPORT">ESCALATEDCASES</value>
+	<value feature="ESTIMATES">ESTIMATES</value>
+	<value feature="ESTIMATES">ESTIMATESRANGE</value>
+	<value>ETECASEEOVERFIVE</value>
+	<value>ETECASEEOVERTWO</value>
+	<value>ETECASEVOVERFIVE</value>
+	<value>ETECASEVOVERTWO</value>
+	<value>ETECUSTEOVERFIVE</value>
+	<value>ETECUSTEOVERTWO</value>
+	<value>ETECUSTVOVERFIVE</value>
+	<value>ETECUSTVOVERTWO</value>
+	<value>ETESOEOVERFIVE</value>
+	<value>ETESOEOVERTWO</value>
+	<value>ETESOVOVERFIVE</value>
+	<value>ETESOVOVERTWO</value>
+	<value feature="SFA">FORECAST</value>
+	<value feature="ALTSALESAMOUNT">FORECASTASA</value>
+	<value feature="SFA">FORECASTOVERRIDE</value>
+	<value feature="ALTSALESAMOUNT">FORECASTOVERRIDEASA</value>
+	<value feature="WEBHOSTING">HOSTEDSITETRAFFIC</value>
+	<value>NEWBUSINESSORD</value>
+	<value feature="ALTSALESAMOUNT">NEWBUSINESSORDALT</value>
+	<value feature="SUPPORT">NEWCASES</value>
+	<value>NEWCUSTOMERSORD</value>
+	<value feature="ISSUEDB">NEWISSUES</value>
+	<value feature="SFA">NEWLEADS</value>
+	<value feature="SFA">NEWLEADSGROSS</value>
+	<value feature="OPPORTUNITIES">NEWOPPORTUNITIES</value>
+	<value feature="ADVWEBREPORTS">NEWVISITORS</value>
+	<value feature="SUPPORT">OPENCASES</value>
+	<value feature="ISSUEDB">OPENISSUES</value>
+	<value feature="OPPORTUNITIES">OPPORTUNITIES</value>
+	<value feature="OPPORTUNITIES">OPPORTUNITIESLOST</value>
+	<value feature="OPPORTUNITIES">OPPORTUNITIESRANGE</value>
+	<value feature="OPPORTUNITIES">OPPORTUNITIESWON</value>
+	<value>ORDERS</value>
+	<value>PAGETIMESOVERFIVE</value>
+	<value>PAGETIMESOVERTWO</value>
+	<value feature="COMMISSIONS">PCOMMISSIONS</value>
+	<value feature="PARTNERCOMMISSIONS">PCOMMISSIONSPARTNER</value>
+	<value feature="SFA">PIPELINE</value>
+	<value feature="ALTSALESAMOUNT">PIPELINEASA</value>
+	<value feature="SFA">PIPELINEDEALS</value>
+	<value feature="SFA">PIPELINEWEIGHTED</value>
+	<value feature="ALTSALESAMOUNT">PIPELINEWEIGHTEDASA</value>
+	<value feature="SFA">PROSPECTS</value>
+	<value feature="ACCOUNTING">PURCHASES</value>
+	<value feature="SFA">QUOTA</value>
+	<value feature="ALTSALESAMOUNT">QUOTAASA</value>
+	<value feature="SFA">QUOTAREPS</value>
+	<value>RPAGETIMESOVERFIVE</value>
+	<value>RPAGETIMESOVERTWO</value>
+	<value feature="WEBSITE">SITETRAFFIC</value>
+	<value>SPAGETIMESOVERFIVE</value>
+	<value>SPAGETIMESOVERTWO</value>
+	<value feature="SALESORDERS">TOTALBOOKINGS</value>
+	<value feature="SALESORDERS">TOTALORDERS</value>
+	<value feature="SFA">TOTALPIPEDEALS</value>
+	<value feature="SFA">TOTALPIPELINE</value>
+	<value feature="ALTSALESAMOUNT">TOTALPIPELINEASA</value>
+	<value feature="SFA">TOTALPIPEWEIGHTED</value>
+	<value feature="ALTSALESAMOUNT">TOTALPIPEWEIGHTEDASA</value>
+	<value feature="PURCHASEORDERS">VENDOROPENPO</value>
+	<value feature="ADVWEBREPORTS">VISITORTRAFFIC</value>
+	<value feature="WEBSITE">WEBORDERS</value>
+	<value feature="WEBSITE">WEBREVENUE</value>
+</list>

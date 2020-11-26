@@ -1,0 +1,7 @@
+<!--
+	This file lists all the configurable features allowed in Account Configuration Projects.
+-->
+<list id='forbidden_features'>
+	<value>SUITEAPPDEVELOPMENTFRAMEWORK</value>
+	<value>DOCUMENTS</value>
+</list>

@@ -1,0 +1,9 @@
+<list id='script_status'>
+    <value>TESTING</value>
+    <value>RELEASED</value>
+    <value>NOTSCHEDULED</value>
+    <value>SCHEDULED</value>
+    <value>INPROGRESS</value>
+    <value>INQUEUE</value>
+    <value>COMPLETED</value>
+</list>

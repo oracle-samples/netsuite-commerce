@@ -1,0 +1,5 @@
+<!-- delete in the future-->
+<list id='locking_actions'>
+	<value>LOCK</value>
+	<value>UNLOCK</value>
+</list>

@@ -1,0 +1,6 @@
+<list id="portlet_trendgraph_backgroundtype">
+	<value internal="trendgraph_bands">BANDS</value>
+	<value internal="trendgraph_global_background">GLOBAL_BACKGROUND</value>
+	<value internal="trendgraph_grid">GRID</value>
+	<value internal="trendgraph_lines">LINES</value>
+</list>
