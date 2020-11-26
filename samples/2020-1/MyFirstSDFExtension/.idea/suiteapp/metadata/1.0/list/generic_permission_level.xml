@@ -1,7 +1,0 @@
-<list id="generic_permission_level">
-	<value internal="0">NONE</value> <!-- NONE -->
-	<value internal="1">VIEW</value> <!-- VIEW/MASKED (masked only for list_employeessn) -->
-	<value internal="2">CREATE</value> <!-- CREATE -->
-	<value internal="3">EDIT</value> <!-- EDIT -->
-	<value internal="4">FULL</value> <!-- FULL -->
-</list>

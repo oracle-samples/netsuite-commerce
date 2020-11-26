@@ -1,5 +1,0 @@
-<list id='role_restrictionsegment'>
-	<value internal="-101" feature="CLASSES">CLASS</value>
-	<value internal="-102" feature="DEPARTMENTS">DEPARTMENT</value>
-	<value internal="-103" feature="LOCATIONS">LOCATION</value>
-</list>

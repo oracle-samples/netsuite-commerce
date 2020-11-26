@@ -1,8 +1,0 @@
-<list id='script_loglevel'>
-	<value>AUDIT</value>
-	<value>DEBUG</value>
-	<value>EMERGENCY</value>
-	<value>ERROR</value>
-	<value>INTERNAL</value>
-	<value>SYSTEM</value>
-</list>

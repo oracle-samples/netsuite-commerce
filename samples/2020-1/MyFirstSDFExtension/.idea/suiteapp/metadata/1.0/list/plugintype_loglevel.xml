@@ -1,6 +1,0 @@
-<list id='plugintype_loglevel'>
-	<value>AUDIT</value>
-	<value>DEBUG</value>
-	<value>EMERGENCY</value>
-	<value>ERROR</value>
-</list>

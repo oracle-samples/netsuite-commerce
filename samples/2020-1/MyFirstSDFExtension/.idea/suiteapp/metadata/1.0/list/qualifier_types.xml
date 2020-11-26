@@ -1,9 +1,0 @@
-<list id='qualifier_types'>
-    <value>crmcustomfield</value>
-    <value>customrecordcustomfield</value>
-	<value>entitycustomfield</value>
-    <value>itemcustomfield</value>
-	<value>othercustomfield</value>
-    <value>transactionbodycustomfield</value>
-	<value>transactioncolumncustomfield</value>
-</list>

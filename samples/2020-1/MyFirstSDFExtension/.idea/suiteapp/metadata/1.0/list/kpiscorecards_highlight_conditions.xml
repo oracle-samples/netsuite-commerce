@@ -1,7 +1,0 @@
-<list id='kpiscorecards_highlight_conditions'>
-	<value internal="LT">LESS_THAN</value>
-	<value internal="GT">GREATER_THAN</value>
-	<value internal="MGT">MAGNITUDE_GREATER_THAN</value>
-	<value internal="MLT">MAGNITUDE_LESS_THAN</value>
-	<value internal="ALWAYS">ALWAYS</value>
-</list>

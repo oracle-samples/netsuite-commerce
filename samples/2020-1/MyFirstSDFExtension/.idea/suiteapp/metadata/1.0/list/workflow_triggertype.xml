@@ -1,5 +1,0 @@
-<list id='workflow_triggertype'>
-    <value>BEFORELOAD</value>
-    <value>BEFORESUBMIT</value>
-    <value>AFTERSUBMIT</value>
-</list>

@@ -1,6 +1,0 @@
-<list id='portlet_customsearch_backgroundtype'>
-	<value internal="searchresults_bands">BANDS</value>
-	<value internal="searchresults_global_background">GLOBAL_BACKGROUND</value>
-	<value internal="searchresults_grid">GRID</value>
-	<value internal="searchresults_lines">LINES</value>
-</list>

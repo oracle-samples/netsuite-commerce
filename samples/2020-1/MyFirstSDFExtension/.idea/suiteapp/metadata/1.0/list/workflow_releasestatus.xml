@@ -1,7 +1,0 @@
-<list id='workflow_releasestatus'>
-    <value>SUSPENDED</value>
-    <value>NOTRUNNING</value>
-    <value>NOTINITIATING</value>
-    <value>RELEASED</value>
-    <value>TESTING</value>
-</list>

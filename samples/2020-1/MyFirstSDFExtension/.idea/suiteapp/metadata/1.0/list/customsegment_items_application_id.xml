@@ -1,9 +1,0 @@
-<list id='customsegment_items_application_id'>
-	<value feature="ASSEMBLIES">ASSEMBLYITEM</value>
-	<value feature="INVENTORY">INVENTORYITEM</value>
-	<value>ITEMGROUP</value>
-	<value>KITITEM</value>
-	<value>NONINVENTORYITEM</value>
-	<value>OTHERCHARGEITEM</value>
-	<value>SERVICEITEM</value>
-</list>

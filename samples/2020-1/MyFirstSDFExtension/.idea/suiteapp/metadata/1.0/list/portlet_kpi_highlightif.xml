@@ -1,7 +1,0 @@
-<list id='portlet_kpi_highlightif'>
-	<value internal="ALWAYS">ALWAYS</value>
-	<value internal="GT">GREATER_THAN</value>
-	<value internal="LT">LESS_THAN</value>
-	<value internal="VGT">VARIANCE_GREATER_THAN</value>
-	<value internal="VLT">VARIANCE_LESS_THAN</value>
-</list>
