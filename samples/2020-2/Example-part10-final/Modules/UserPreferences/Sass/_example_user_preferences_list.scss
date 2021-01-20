@@ -1,0 +1,38 @@
+// Copyright (c) 2021, Oracle and/or its affiliates. All rights reserved.
+// Licensed under the Universal Permissive License v 1.0 as shown at http://oss.oracle.com/licenses/upl.
+.user-preferences-list-header {
+    @extend .list-header;
+    display: inline-block;
+    width: 100%;
+}
+
+.user-preferences-list-title {
+    @extend .list-header-title;
+    float: left;
+}
+
+.user-preferences-list-button-new {
+    @extend .list-header-button;
+}
+
+.user-preferences-list-table {
+    @extend .recordviews-table;
+}
+
+.user-preferences-list-table-header {
+    @extend .recordviews-row-header;
+}
+
+.user-preferences-list-table-header-type,
+.user-preferences-list-table-header-value,
+.user-preferences-list-table-header-actions {
+    padding: $sc-padding-lv3;
+}
+
+.user-preferences-list-table-header-actions {
+    width: 30%;
+}
+
+.user-preferences-list-table-row {
+    @extend .recordviews-row;
+}

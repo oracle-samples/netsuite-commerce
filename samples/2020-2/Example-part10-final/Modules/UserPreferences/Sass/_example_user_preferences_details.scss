@@ -1,0 +1,28 @@
+// Copyright (c) 2021, Oracle and/or its affiliates. All rights reserved.
+// Licensed under the Universal Permissive License v 1.0 as shown at http://oss.oracle.com/licenses/upl.
+.user-preferences-list-table-row {
+    @extend .recordviews-row;
+}
+
+.user-preferences-list-table-cell-label {
+    @extend .recordviews-label;
+}
+
+.user-preferences-table-edit-link {
+    @extend .button-small;
+    @extend .button-secondary;
+}
+
+.user-preferences-table-delete-button {
+    @extend .button-small;
+    @extend .button-tertiary;
+}
+
+.user-preferences-table-edit-link,
+.user-preferences-table-delete-button {
+    margin-right: $sc-margin-lv2;
+
+    @media (max-width: $screen-sm-max) {
+        margin-bottom: $sc-margin-lv2;
+    }
+}

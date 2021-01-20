@@ -1,0 +1,45 @@
+{
+    "name": "Example",
+    "fantasyName": "User Preferences Manager",
+    "vendor": "Example Vendor",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=20.2.0",
+        "SCS": ">=20.2.0"
+    },
+    "description": "An example extension to demonstrate SuiteCommerce customizations",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        }
+    },
+    "templates": {
+        "application": {
+            "myaccount": {
+                "files": [
+                    "Modules/UserPreferences/Templates/example_userpreferences_list.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "myaccount": "Modules/UserPreferences/JavaScript/Example.UserPreferences.js"
+        },
+        "application": {
+            "myaccount": {
+                "files": [
+                    "Modules/UserPreferences/JavaScript/Example.UserPreferences.js",
+                    "Modules/UserPreferences/JavaScript/Example.UserPreferences.List.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace\\Example"
+}
