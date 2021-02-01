@@ -1,6 +1,6 @@
 # Contributing to the NetSuite SuiteCommerce Developers Project
 
-*Copyright (c) 2020 Oracle and/or its affiliates The Universal Permissive License (UPL), Version 1.0*
+*Copyright (c) 2021 Oracle and/or its affiliates The Universal Permissive License (UPL), Version 1.0*
 
 **Pull requests are currently not being accepted for NetSuite SuiteCommerce Developers project.**
 

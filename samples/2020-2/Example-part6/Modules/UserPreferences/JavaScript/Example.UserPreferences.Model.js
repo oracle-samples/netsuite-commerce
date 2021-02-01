@@ -14,8 +14,8 @@ function
  
     var SCModel = SCModelModule.SCModel;
  
-    function ExampleUserPreferencesModel (model, collection, options) {
-        SCModel.call(this, model, collection, options);
+    function ExampleUserPreferencesModel (model, options) {
+        SCModel.call(this, model, options);
  
         this.urlRoot = function urlRoot () {
             return Utils.getAbsoluteUrl(
