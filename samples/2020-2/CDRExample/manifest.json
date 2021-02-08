@@ -1,0 +1,37 @@
+{
+    "name": "CDRExample",
+    "fantasyName": "Context Data Request Example",
+    "vendor": "ExampleVendor",
+    "version": "1.0.0",
+    "type": "extension",
+    "target": "SCA,SCS",
+    "target_version": {
+        "SCA": ">=20.2.0",
+        "SCS": ">=20.2.0"
+    },
+    "description": "An example extension to demonstrate contextDataRequest",
+    "skins": [],
+    "templates": {
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/CDRExample/Templates/cdr_example.tpl"
+                ]
+            }
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "shopping": "Modules/CDRExample/JavaScript/CDRExample.js"
+        },
+        "application": {
+            "shopping": {
+                "files": [
+                    "Modules/CDRExample/JavaScript/CDRExample.js",
+                    "Modules/CDRExample/JavaScript/CDRExample.View.js"
+                ]
+            }
+        }
+    },
+    "local_folder": "Workspace\\CDRExample"
+}
