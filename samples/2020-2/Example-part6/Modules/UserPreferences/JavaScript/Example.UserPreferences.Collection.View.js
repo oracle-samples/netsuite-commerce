@@ -16,8 +16,6 @@ define('Example.UserPreferences.Collection.View', [
     var SCCollectionView = SCCollectionViewModule.SCCollectionView;
 
     function ExampleUserPreferencesCollectionView (options) {
-        var self = this;
-
         SCCollectionView.call(this, options.collection);
 
         this.collection = options.collection;
