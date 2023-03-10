@@ -1,3 +1,5 @@
+# NetSuite Commerce
+
 This is a repository of code samples for NetSuite SuiteCommerce and SuiteCommerce Advanced. The snippets show how the code works; they are not official features or modules for SuiteCommerce.
 
 ## Dependencies
@@ -44,17 +46,15 @@ No support is provided for these code samples, they are provided as-is.
 
 This repository is to help developers get started and work on customizations for SuiteCommerce and SuiteCommerce Advanced. Do **NOT** raise issues to ask general questions about SuiteCommerce, or to report bugs with the bundles or NetSuite. Issues must relate only to the content within this repository only --- unrelated issues will be closed and/or removed.
 
-## Security Issues
+## Security
 
 If you have security concerns about the code in this repository, do **NOT** raise a GitHub issue. Instead, please follow the instructions in [SECURITY.md](SECURITY.md).
 
-## Contributions
+## Contributing
 
-Community contributions are not currently being accepted.
+This project is not accepting external contributions at this time. For bugs or enhancement requests, please file a GitHub issue unless it’s security related. When filing a bug remember that the better written the bug is, the more likely it is to be fixed. If you think you’ve found a security vulnerability, do not raise a GitHub issue and follow the instructions in our [security policy](./SECURITY.md).
 
 If you have ideas, comments, or issues to discuss, create an issue in this repository.
-
-See [CONTRIBUTING](CONTRIBUTING.md) for more details.
 
 ## Third-Party Libraries
 
@@ -62,7 +62,7 @@ This repository references the third-party libraries that are used within the Su
 
 ## License
 
-Copyright (c) 2020, Oracle and/or its affiliates.
+Copyright (c) 2020, 2023 Oracle and/or its affiliates.
 
 Licensed under the Universal Permissive License v 1.0 as shown at [https://oss.oracle.com/licenses/upl](https://oss.oracle.com/licenses/upl).
 
