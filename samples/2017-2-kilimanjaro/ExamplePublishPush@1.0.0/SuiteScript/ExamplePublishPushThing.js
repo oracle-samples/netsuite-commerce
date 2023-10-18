@@ -12,9 +12,10 @@ define('ExamplePublishPushThing'
 {
   'use strict';
 
-  Configuration.publish = Configuration.publish || [];
+  Configuration.set('publish', Configuration.get('publish') || []);
+  var pub = Configuration.get('publish');
 
-  Configuration.publish.push({
+  pub.push({
     key: 'ExamplePublishPush'
   , model: 'ExamplePublishPush.Model'
   , call: 'setSomeValueOrSomething'
